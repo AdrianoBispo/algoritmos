@@ -1,0 +1,96 @@
+# Mathematical Algorithms
+
+A seguir está a lista de conceitos matemáticos e problemas de programação relacionados. Os problemas estão organizados por nível de dificuldade. Consulte [Mathematical Algorithms (por tópico)](https://www.geeksforgeeks.org/dsa/mathematical-algorithms/) para a lista de problemas organizada por assunto.
+
+### ****Conceitos matemáticos:****
+
+-   [Números](https://www.geeksforgeeks.org/aptitude/numbers-aptitude-questions-and-answers/)
+-   [Números primos](https://www.geeksforgeeks.org/maths/prime-numbers/)
+-   [Progressão aritmética](https://www.geeksforgeeks.org/maths/what-is-arithmetic-progression/)
+-   [Progressão geométrica](https://www.geeksforgeeks.org/maths/what-is-geometric-progression/)
+-   [MDC](https://www.geeksforgeeks.org/maths/greatest-common-divisor-gcd/) e [MMC](https://www.geeksforgeeks.org/maths/lcm-least-common-multiple/)
+-   [Fatorial](https://www.geeksforgeeks.org/maths/factorial/)
+-   [Permutação](https://www.geeksforgeeks.org/maths/permutation/) e [combinação](https://www.geeksforgeeks.org/maths/combinations/)
+-   [Número de Catalan](https://www.geeksforgeeks.org/maths/catalan-numbers/)
+-   [Aritmética modular](https://www.geeksforgeeks.org/engineering-mathematics/modular-arithmetic/)
+
+### ****Problemas básicos****
+
+-   [Soma dos naturais](https://www.geeksforgeeks.org/dsa/program-find-sum-first-n-natural-numbers/)
+-   [Soma dos quadrados dos naturais](https://www.geeksforgeeks.org/dsa/sum-of-squares-of-first-n-natural-numbers/)
+-   [Enésimo termo de uma PA](https://www.geeksforgeeks.org/dsa/program-n-th-term-arithmetic-progression-series/)
+-   [Enésimo termo de uma PG](https://www.geeksforgeeks.org/dsa/find-nth-term-geometric-progression-series/)
+-   [Enésimo número triangular](https://www.geeksforgeeks.org/dsa/triangular-numbers/)
+-   [Soma das somas dos números naturais](https://www.geeksforgeeks.org/dsa/sum-of-first-n-natural-numbers/)
+-   [Contar dígitos](https://www.geeksforgeeks.org/dsa/program-count-digits-integer-3-different-methods/)
+-   [Soma dos dígitos](https://www.geeksforgeeks.org/dsa/program-for-sum-of-the-digits-of-a-given-number/)
+-   [Reverter dígitos](https://www.geeksforgeeks.org/dsa/write-a-program-to-reverse-digits-of-a-number/)
+-   [K-ésimo dígito em a^b](https://www.geeksforgeeks.org/dsa/k-th-digit-raised-power-b/)
+-   [Número palíndromo](https://www.geeksforgeeks.org/dsa/check-if-a-number-is-palindrome/)
+-   [MDC de dois números](https://www.geeksforgeeks.org/dsa/program-to-find-lcm-of-two-numbers/)
+-   [MMC de dois números](https://www.geeksforgeeks.org/dsa/program-to-find-lcm-of-two-numbers/)
+-   [Somar duas frações](https://www.geeksforgeeks.org/dsa/program-to-add-two-fractions/)
+-   [Verificar se são coprimos](https://www.geeksforgeeks.org/dsa/check-two-numbers-co-prime-not/)
+-   [Fatorial de um número](https://www.geeksforgeeks.org/dsa/program-for-factorial-of-a-number/)
+-   [MDC de mais de 2 números](https://www.geeksforgeeks.org/dsa/gcd-two-array-numbers/)
+-   [MMC de mais de 2 números](https://www.geeksforgeeks.org/dsa/lcm-of-given-array-elements/)
+-   [Sequência de Padovan](https://www.geeksforgeeks.org/dsa/padovan-sequence/)
+
+### ****Problemas fáceis****
+
+-   [Contagem de pares cúbicos](https://www.geeksforgeeks.org/dsa/count-pairs-a-b-whose-sum-of-cubes-is-n-a3-b3-n/)
+-   [Soma de 2, 22, 222, ...](https://www.geeksforgeeks.org/dsa/sum-sequence-2-22-222/)
+-   [Soma de 1^2 + 3^2 + 5^2 + . . . + (2\*n – 1)^2](https://www.geeksforgeeks.org/dsa/sum-series-12-32-52-2n-12/)
+-   [Soma de 0,6, 0,06, 0,006, 0,0006, ... até n termos](https://www.geeksforgeeks.org/dsa/sum-series-0-6-0-06-0-006-0-0006-n-terms/)
+-   [Enésimo termo de 2, 12, 36, 80, 150...](https://www.geeksforgeeks.org/dsa/n-th-term-series-2-12-36-80-150/)
+-   [Raiz digital](https://www.geeksforgeeks.org/dsa/digital-rootrepeated-digital-sum-given-integer/)
+-   [Números de Fibonacci](https://www.geeksforgeeks.org/dsa/program-for-nth-fibonacci-number/)
+-   [Número de Lucas](https://www.geeksforgeeks.org/dsa/lucas-numbers/)
+-   [Verificar potência](https://www.geeksforgeeks.org/dsa/check-if-a-number-is-power-of-another-number/)
+-   [Três divisores](https://www.geeksforgeeks.org/dsa/numbers-exactly-3-divisors/)
+-   [Raiz quadrada](https://www.geeksforgeeks.org/dsa/square-root-of-an-integer/)
+-   [Coeficiente binomial](https://www.geeksforgeeks.org/dsa/binomial-coefficient-dp-9/)
+-   [Triângulo de Pascal](https://www.geeksforgeeks.org/dsa/pascal-triangle/)
+-   [Enésima linha do triângulo de Pascal](https://www.geeksforgeeks.org/dsa/find-the-nth-row-in-pascals-triangle/)
+-   [Números de Armstrong](https://www.geeksforgeeks.org/dsa/program-for-armstrong-numbers/)
+-   [Determinante de uma matriz](https://www.geeksforgeeks.org/dsa/determinant-of-a-matrix/)
+-   [Exponenciação modular](https://www.geeksforgeeks.org/dsa/modular-exponentiation-power-in-modular-arithmetic/)
+-   [Verificar quadrados perfeitos](https://www.geeksforgeeks.org/dsa/check-if-given-number-is-perfect-square-in-cpp/)
+-   [Divisibilidade por 3](https://www.geeksforgeeks.org/dsa/check-large-number-divisible-3-not/)
+-   [Divisibilidade por 4](https://www.geeksforgeeks.org/dsa/check-large-number-divisible-4-not/)
+-   [Divisibilidade por 7](https://www.geeksforgeeks.org/dsa/divisibility-by-7/)
+-   [Divisibilidade por 11](https://www.geeksforgeeks.org/dsa/check-large-number-divisible-11-not/)
+-   [Divisibilidade por 13](https://www.geeksforgeeks.org/dsa/check-large-number-divisible-13-not/)
+-   [Divisibilidade por 29](https://www.geeksforgeeks.org/dsa/number-is-divisible-by-29-or-not/)
+
+### ****Problemas médios****
+
+-   [Equações diofantinas lineares](https://www.geeksforgeeks.org/dsa/eulers-totient-function/)
+-   [Função totiente de Euler](https://www.geeksforgeeks.org/dsa/eulers-totient-function/)
+-   [Peneira de Eratóstenes](https://www.geeksforgeeks.org/dsa/sieve-of-eratosthenes/)
+-   [Todos os divisores](https://www.geeksforgeeks.org/dsa/find-all-factors-of-a-natural-number/)
+-   [Fatoração em primos](https://www.geeksforgeeks.org/dsa/prime-factor/)
+-   [Maior fator primo](https://www.geeksforgeeks.org/dsa/find-largest-prime-factor-number/)
+-   [Fatorial de um número grande](https://www.geeksforgeeks.org/dsa/factorial-large-number/)
+-   [Maior potência divisível em fatoriais](https://www.geeksforgeeks.org/dsa/largest-power-k-n-factorial-k-may-not-prime/)
+-   [Último dígito não nulo do fatorial](https://www.geeksforgeeks.org/dsa/last-non-zero-digit-factorial/)
+-   [Conjunto potência](https://www.geeksforgeeks.org/dsa/power-set/)
+-   [Somar dois polinômios](https://www.geeksforgeeks.org/dsa/program-add-two-polynomials/)
+-   [Todas as permutações de uma string](https://www.geeksforgeeks.org/dsa/write-a-c-program-to-print-all-permutations-of-a-given-string/)
+-   [Próxima permutação](https://www.geeksforgeeks.org/dsa/next-permutation/)
+-   [Verificar números de Carmichael](https://www.geeksforgeeks.org/dsa/carmichael-numbers/)
+-   [Sequência de Collatz](https://www.geeksforgeeks.org/dsa/program-to-print-collatz-sequence/)
+-   [Caminhos únicos em grade](https://www.geeksforgeeks.org/dsa/count-possible-paths-top-left-bottom-right-nxm-matrix/)
+-   [Enésimo número de Fibonacci par](https://www.geeksforgeeks.org/dsa/nth-even-fibonacci-number/)
+-   [Últimos 2 dígitos do enésimo Fibonacci](https://www.geeksforgeeks.org/dsa/program-find-last-two-digits-nth-fibonacci-number/)
+
+### ****Problemas difíceis****
+
+-   [Problema de Josephus](https://www.geeksforgeeks.org/dsa/josephus-problem/)
+-   [Tutorial do problema dos jarros de água](https://www.geeksforgeeks.org/dsa/water-jug-problem-complete-tutorial/)
+-   [Peneira segmentada](https://www.geeksforgeeks.org/dsa/segmented-sieve/)
+-   [k-ésimo fator primo](https://www.geeksforgeeks.org/dsa/k-th-prime-factor-given-number/)
+-   [N-ésima raiz](https://www.geeksforgeeks.org/dsa/n-th-root-number/)
+-   [Soma dos dígitos no fatorial](https://www.geeksforgeeks.org/dsa/find-sum-digits-factorial-number/)
+-   [Problema do egg dropping](https://www.geeksforgeeks.org/dsa/egg-dropping-puzzle-dp-11/)
+-   [Próxima string](https://www.geeksforgeeks.org/dsa/lexicographically-next-string/)

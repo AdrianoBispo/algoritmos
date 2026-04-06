@@ -19,9 +19,9 @@ busca na web e muito mais.
 
 ## Mais Algoritmos de Busca
 - [Algoritmo de Busca Ternária](./ternary_search)
-- [Algoritmo de Busca de Interpolação](./interpolation_search)
-- [Algoritmo de Busca Exponencial](./exponential_search)
-- [Algoritmo de Busca de Fibonacci](./fibonacci_search)
+- Algoritmo de Busca de Interpolação
+- Algoritmo de Busca Exponencial
+- Algoritmo de Busca de Fibonacci
 
 ## Comparações entre Diferentes Algoritmos de Busca
 - [Pesquisa Linear vs Pesquisa Binária](./comparisons/README.md)

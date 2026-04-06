@@ -43,10 +43,9 @@ Existem vários algoritmos de ordenação usados em estruturas de dados. Os dois
 a seguir podem ser amplamente classificados:
 
 1. Algoritmos que precisam realizar comparações entre os elementos dentro de um array ou matriz para efetuar a
-   ordenação, são eles: [`Bubble Sort`](./bubble_sort), [`Insertion Sort`](./insertion_sort), [`Selection Sort`](./selection_sort), [`Quick Sort`](./quick_sort), [
-   `Merge Sort`](./merge_sort) e [`Heap Sort`](./heap_sort).
+  ordenação, são eles: [`Bubble Sort`](./bubble_sort), Insertion Sort, Selection Sort, Quick Sort, Merge Sort e Heap Sort.
 2. Algoritmos que não precisam realizar comparações entre os elementos dentro de um array ou matriz para efetuar a
-   ordenação, são eles: [`Counting Sort`](./counting_sort) e [`Radix Sort`](./radix_sort).
+  ordenação, são eles: Counting Sort e Radix Sort.
 
 ## Aplicações de Algoritmos de Ordenações:
 

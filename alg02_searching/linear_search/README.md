@@ -11,9 +11,7 @@ faz: ele percorre cada elemento de uma lista (ou array) até encontrar o que est
 
 ## Exemplo Visual
 
-![Linear-search-algorithm-1.webp](..%2F..%2F..%2F..%2F..%2FAppData%2FLocal%2FTemp%2FLinear-search-algorithm-1.webp)
-![Linear-search-algorithm-2.webp](..%2F..%2F..%2F..%2F..%2FAppData%2FLocal%2FTemp%2FLinear-search-algorithm-2.webp)
-![Linear-search-algorithm-3.webp](..%2F..%2F..%2F..%2F..%2FAppData%2FLocal%2FTemp%2FLinear-search-algorithm-3.webp)
+As imagens originais deste exemplo não estão versionadas no workspace atual.
 
 **Abaixo está a implementação do algoritmo de busca linear utilizando a linguagem Java com base nesse exemplo mostrado
 acima:**

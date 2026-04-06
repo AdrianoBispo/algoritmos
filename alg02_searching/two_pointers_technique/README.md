@@ -1,131 +1,46 @@
-A técnica dos **dois ponteiros** (ou **two-pointer technique**) é uma abordagem bastante eficiente utilizada em
-problemas de algoritmos, principalmente quando lidamos com arrays ou listas. Ela envolve o uso de dois ponteiros (ou
-índices) para percorrer o array de maneira otimizada, geralmente com o objetivo de reduzir o tempo de execução, ao invés
-de usar uma abordagem mais "bruta" com loops aninhados.
+# Top Problems on Two Pointers Technique for Interviews
 
-### O que é a técnica dos dois ponteiros?
+The Two-Pointers Technique is a simple yet powerful strategy where you use two indices (pointers) that traverse a data structure - such as an array, list, or string - either toward each other or in the same direction to solve problems more efficiently
 
-Imagine que você tem uma lista ou array com vários elementos e precisa resolver algum problema que envolva dois
-elementos em posições diferentes dessa lista. A ideia básica da técnica dos dois ponteiros é colocar dois índices em
-posições diferentes (geralmente no início e no final) e movê-los de forma coordenada (normalmente, um para a direita e o
-outro para a esquerda) até que se encontrem ou até que o problema seja resolvido.
+Two pointers is really an easy and effective technique that is typically used for [Two Sum in Sorted Arrays](https://www.geeksforgeeks.org/dsa/pair-with-given-sum-in-sorted-array-two-sum-ii/), [Closest Two Sum](https://www.geeksforgeeks.org/dsa/two-elements-whose-sum-is-closest-to-zero/), [Three Sum](https://www.geeksforgeeks.org/dsa/find-a-triplet-that-sum-to-a-given-value/), [Four Sum](https://www.geeksforgeeks.org/dsa/find-four-numbers-with-sum-equal-to-given-sum/), [Trapping Rain Water](https://www.geeksforgeeks.org/dsa/trapping-rain-water/) and many other popular interview questions.
 
-### Para que serve a técnica dos dois ponteiros?
+### When to Use Two Pointers:
 
-A técnica serve para **otimizar a busca e a manipulação de dados** dentro de um array ou lista. Em vez de percorrer o
-array de maneira lenta com loops aninhados, você pode usar os dois ponteiros para realizar a tarefa de maneira mais
-eficiente, com complexidade **O(n)** em vez de **O(n²)**.
+-   ****Sorted Input :**** If the array or list is already sorted (or can be sorted), two pointers can efficiently find pairs or ranges. Example: Find two numbers in a sorted array that add up to a target.
+-   ****Pairs or Subarrays :**** When the problem asks about two elements, subarrays, or ranges instead of working with single elements. Example: Longest substring without repeating characters, maximum consecutive ones, checking if a string is palindrome.
+-   ****Sliding Window Problems :**** When you need to maintain a window of elements that grows/shrinks based on conditions. Example: Find smallest subarray with sum ≥ K, move all zeros to end while maintaining order.
+-   ****Linked Lists (Slow–Fast pointers) :**** Detecting cycles, finding the middle node, or checking palindrome property. Example: Floyd’s Cycle Detection Algorithm (Tortoise and Hare).
 
-### Quando utilizar a técnica dos dois ponteiros?
+### Easy Problems
 
-Você pode usar a técnica dos dois ponteiros quando:
+-   [Remove Occurrences](https://www.geeksforgeeks.org/dsa/remove-element/)
+-   [Move Zeros To End](https://www.geeksforgeeks.org/dsa/move-zeroes-end-array/)
+-   [Unique Elements in Sorted Array](https://www.geeksforgeeks.org/dsa/remove-duplicates-sorted-array/)
+-   [Reverse a string preserving space positions](https://www.geeksforgeeks.org/dsa/reverse-string-preserving-space-positions/)
+-   [Sort an array of 0s, 1s and 2s](https://www.geeksforgeeks.org/dsa/sort-an-array-of-0s-1s-and-2s/)
+-   [Two Sum](https://www.geeksforgeeks.org/dsa/check-if-pair-with-given-sum-exists-in-array/)
+-   [Pair Sum in a Sorted and Rotated Array](https://www.geeksforgeeks.org/dsa/given-a-sorted-and-rotated-array-find-if-there-is-a-pair-with-a-given-sum/)
+-   [Closest Pair Sum](https://www.geeksforgeeks.org/dsa/2-sum-pair-sum-closest-to-target/)
+-   [Closest pair from two sorted arrays](https://www.geeksforgeeks.org/dsa/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/)
+-   [Smallest Subarray > Sum](https://www.geeksforgeeks.org/dsa/minimum-length-subarray-sum-greater-given-value/)
+-   [Dominant Pairs](https://www.geeksforgeeks.org/dsa/find-the-number-of-dominant-pairs/)
+-   [Sentence Palindrome](https://www.geeksforgeeks.org/dsa/sentence-palindrome-palindrome-removing-spaces-dots-etc/)
+-   [Intersection of Arrays with Distinct](https://www.geeksforgeeks.org/dsa/intersection-of-two-arrays-with-distinct-elements/)
 
-- Você está lidando com um array **ordenado** ou pode ordená-lo.
-- O problema envolve **duas partes** do array e você precisa realizar operações com elas (como encontrar pares, somar
-  elementos, ou verificar condições entre elementos).
-- Você precisa otimizar o tempo de execução e evitar soluções mais lentas com loops aninhados.
+### Medium Problems
 
-### Exemplo 1: **Soma de dois números que resultam em um valor alvo**
+-   [Count pairs with absolute difference equal to k](https://www.geeksforgeeks.org/dsa/count-pairs-difference-equal-k/)
+-   [Triplet Sum in Array](https://www.geeksforgeeks.org/dsa/find-a-triplet-that-sum-to-a-given-value/)
+-   [Sum of Two Equals Third](https://www.geeksforgeeks.org/dsa/find-triplet-sum-two-equals-third-element/)
+-   [K-th element of two Arrays](https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1)
+-   [Union of 2 Sorted with Duplicates](https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1?page=1&category=two-pointer-algorithm&sortBy=submissions)
+-   [Subarrays with Max in Range](https://www.geeksforgeeks.org/dsa/number-subarrays-maximum-value-given-range/)
+-   [Longest Substring with K Unique](https://www.geeksforgeeks.org/dsa/find-the-longest-substring-with-k-unique-characters-in-a-given-string/)
+-   [Remove and Reverse](https://www.geeksforgeeks.org/dsa/remove-repeating-chars-and-reverse-string-until-no-repetitions/)
+-   [The Celebrity Problem](https://www.geeksforgeeks.org/dsa/the-celebrity-problem/)
 
-Vamos imaginar o seguinte problema: você tem um array de números **ordenado** e quer encontrar dois números que somados
-resultem em um valor alvo.
+### Hard Problems
 
-### Exemplo em Java:
-
-```java
-public class TwoPointerExample {
-
-    public static boolean hasPairWithSum(int[] arr, int target) {
-        int left = 0; // Ponteiro no início do array
-        int right = arr.length - 1; // Ponteiro no final do array
-
-        while (left < right) {
-            int sum = arr[left] + arr[right]; // Soma dos elementos apontados pelos ponteiros
-
-            if (sum == target) {
-                System.out.println("Par encontrado: " + arr[left] + " + " + arr[right] + " = " + target);
-                return true;
-            } else if (sum < target) {
-                left++; // Aumenta o ponteiro esquerdo para somar valores maiores
-            } else {
-                right--; // Diminui o ponteiro direito para somar valores menores
-            }
-        }
-
-        return false; // Caso nenhum par seja encontrado
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {1, 3, 4, 6, 8, 10};
-        int target = 12;
-
-        if (!hasPairWithSum(arr, target)) {
-            System.out.println("Nenhum par encontrado.");
-        }
-    }
-}
-```
-
-### Explicação do exemplo:
-
-- Temos um array **ordenado** `[1, 3, 4, 6, 8, 10]` e queremos encontrar dois números que somem 12.
-- O ponteiro **esquerdo** começa no início do array (`left = 0`), e o ponteiro **direito** começa no final (
-  `right = arr.length - 1`).
-- A cada iteração:
-    - Calculamos a soma dos elementos nos índices `left` e `right`.
-    - Se a soma for igual ao **target** (neste caso, 12), encontramos o par e retornamos verdadeiro.
-    - Se a soma for menor que o target, movemos o ponteiro esquerdo para a direita (`left++`), porque isso aumentará a
-      soma.
-    - Se a soma for maior que o target, movemos o ponteiro direito para a esquerda (`right--`), porque isso diminuirá a
-      soma.
-- Isso vai acontecendo até que os ponteiros se cruzem, garantindo que a busca é feita de maneira otimizada.
-
-### Exemplo 2: **Reverter uma string**
-
-Outro exemplo onde os dois ponteiros podem ser usados é para inverter uma string.
-
-```java
-public class TwoPointerReverse {
-
-    public static String reverseString(String str) {
-        char[] chars = str.toCharArray(); // Converte a string para um array de caracteres
-        int left = 0;
-        int right = chars.length - 1;
-
-        while (left < right) {
-            // Troca os caracteres
-            char temp = chars[left];
-            chars[left] = chars[right];
-            chars[right] = temp;
-
-            left++;
-            right--;
-        }
-
-        return new String(chars); // Converte de volta para string
-    }
-
-    public static void main(String[] args) {
-        String str = "hello";
-        System.out.println(reverseString(str)); // Saída: "olleh"
-    }
-}
-```
-
-### Explicação:
-
-- Usamos o **ponteiro esquerdo** (`left`) no início da string e o **ponteiro direito** (`right`) no final.
-- A cada iteração, trocamos os caracteres nas posições apontadas por `left` e `right` e depois movemos os ponteiros para
-  mais perto um do outro.
-- Quando os ponteiros se cruzam ou se encontram, a string foi invertida.
-
-
-
-### Resumo:
-
-A técnica dos **dois ponteiros** é útil para otimizar problemas em arrays ou listas, especialmente quando há a
-necessidade de realizar comparações ou somas entre elementos de diferentes posições. Ela funciona bem quando o array
-está ordenado ou pode ser ordenado, e evita o uso de loops aninhados, melhorando a performance do algoritmo.
-
-Use-a quando você precisar comparar ou manipular dois elementos em diferentes posições, com a vantagem de reduzir a
-complexidade de tempo!
+-   [Trapping Rain Water Problem](https://www.geeksforgeeks.org/dsa/trapping-rain-water/)
+-   [4 Sum - Check for Quadruple](https://www.geeksforgeeks.org/dsa/find-four-numbers-with-sum-equal-to-given-sum/)
+-   [4 Sum – All Distinct Quadruplets with given Sum](https://www.geeksforgeeks.org/dsa/find-four-elements-that-sum-to-a-given-value-set-2/)
