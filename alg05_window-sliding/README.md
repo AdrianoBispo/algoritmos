@@ -1,4 +1,4 @@
-# Janela Deslizante
+![Algoritmo de Janela Deslizante](../infograficos/Algoritmo%20de%20Janela%20Deslizante.png)
 
 A técnica de janela deslizante é uma abordagem algorítmica poderosa usada para resolver problemas com arrays ou listas em que é necessário analisar uma subarray ou subsequência. Ela reduz a complexidade de tempo de problemas que normalmente envolveriam laços aninhados, mantendo uma “janela” de elementos e deslizando-a ao longo do array. A janela pode crescer ou encolher com base em certas condições, o que ajuda a otimizar a solução.
 
