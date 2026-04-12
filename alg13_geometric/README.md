@@ -1,4 +1,4 @@
-# Algoritmos Geométricos
+![Algoritmos Geométricos](../infograficos/Algoritmos%20Geometricos.png)
 
 Algoritmos geométricos são um tipo de algoritmo voltado para resolver problemas relacionados à geometria.
 
