@@ -1,4 +1,4 @@
-# Algoritmo Branch and Bound
+![Algoritmo Branch and Bound](../infograficos/Algoritmo%20Branch%20and%20Bound.png)
 
 O ****algoritmo Branch and Bound**** é um método usado em problemas de otimização ****combinatória**** para buscar sistematicamente a melhor solução. O Branch and Bound é comum em problemas como o caixeiro viajante e o escalonamento de tarefas.
 
