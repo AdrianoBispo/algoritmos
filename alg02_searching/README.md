@@ -1,4 +1,4 @@
-![Searching-algorithm.png](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230726172447/Searching-algorithm.png)
+![O Mapa dos Algoritmos de Busca](../infograficos/O%20Mapa%20dos%20Algoritmos%20de%20Busca.png)
 
 Algoritmos de busca são ferramentas essenciais na ciência da computação usadas para localizar itens específicos dentro
 de uma coleção de dados. Esses algoritmos são projetados para navegar eficientemente por estruturas de dados para
