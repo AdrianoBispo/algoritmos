@@ -1,6 +1,4 @@
-# Busca de Padrões
-
-![Pattern-Searching](https://media.geeksforgeeks.org/wp-content/uploads/20240403134803/Pattern-Searching.png "Clique para ampliar")
+![Algoritmos de Busca por Padrões](../infograficos/Algoritmo%20de%20Busca%20por%20Padroes.png)
 
 ****Algoritmos de busca de padrões**** são ferramentas essenciais em ciência da computação e no processamento de dados. Eles são projetados para localizar com eficiência um padrão específico dentro de um conjunto maior de dados.
 
