@@ -1,3 +1,5 @@
+![O Paradigma Dividir para Conquistar](../infograficos/O%20Paradigma%20Dividir%20para%20Conquistar.png)
+
 # Introdução ao algoritmo de dividir e conquistar
 
 ****Dividir e conquistar**** é uma técnica de resolução de problemas usada para dividir o problema principal em subproblemas, resolvê-los individualmente e depois combiná-los para obter a solução do problema original. Ela é especialmente útil quando o problema pode ser dividido em subproblemas independentes. Se houver subproblemas sobrepostos, usamos [Programação Dinâmica](https://www.geeksforgeeks.org/competitive-programming/dynamic-programming/).
