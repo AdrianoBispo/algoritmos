@@ -1,6 +1,4 @@
-# Algoritmo de Backtracking
-
-![frame_3105](https://media.geeksforgeeks.org/wp-content/uploads/20250925170402526734/frame_3105.webp)
+![Algoritmo de Backtracking](../infograficos/Algoritmo%20de%20Backtracking.png)
 
 ****Algoritmos de backtracking**** são estratégias de resolução de problemas que ajudam a explorar diferentes opções até encontrar a solução.
 
