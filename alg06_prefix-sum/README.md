@@ -1,4 +1,4 @@
-# A Técnica de Prefix Sum
+![Algoritmo de Soma de Prefixo](../infograficos/Algoritmo%20de%20Soma%20de%20Prefixo.png)
 
 A [****técnica de prefix sum****](https://www.geeksforgeeks.org/dsa/prefix-sum-array-implementation-applications-competitive-programming/) é uma abordagem poderosa e amplamente usada em entrevistas de programação, especialmente para otimizar consultas relacionadas a somas de subarrays e computações acumuladas.
 
