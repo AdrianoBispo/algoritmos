@@ -1,4 +1,4 @@
-# Programação Dinâmica ou DP
+![Programação Dinâmica ou DP](../infograficos/Programacao%20Dinamica.png)
 
 A Programação Dinâmica é uma técnica algorítmica com as seguintes características.
 
