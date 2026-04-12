@@ -1,4 +1,4 @@
-# Mathematical Algorithms
+![Algoritmos Matemáticos](../infograficos/Algoritmos%20Matematicos.png)
 
 A seguir está a lista de conceitos matemáticos e problemas de programação relacionados. Os problemas estão organizados por nível de dificuldade. Consulte [Mathematical Algorithms (por tópico)](https://www.geeksforgeeks.org/dsa/mathematical-algorithms/) para a lista de problemas organizada por assunto.
 
