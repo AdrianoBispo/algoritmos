@@ -1,4 +1,4 @@
-![image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230726172607/Sorting-Algorithms.png)
+![Algoritmos de Ordenação](../infograficos/Algoritmos%20de%20Ordenacao.png)
 
 Algoritmos de ordenação são usados para organizar uma lista de elementos em uma ordem específica, como crescente
 ou decrescente , ou qualquer outra ordem especificada pelo usuário, como classificação de strings por comprimento.
