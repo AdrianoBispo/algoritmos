@@ -1,4 +1,4 @@
-# Greedy Algorithms (Algoritmos Gananciosos)
+![Greedy Algorithms (Algoritmos Gananciosos)](../infograficos/Algoritmos%20Gananciosos.png)
 
 Algoritmos gananciosos são uma classe de algoritmos que fazem escolhas localmente ótimas a cada passo, na esperança de encontrar uma solução globalmente ótima.
 
