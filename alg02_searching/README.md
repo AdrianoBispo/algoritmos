@@ -14,7 +14,7 @@ Algoritmos de busca são ferramentas essenciais na ciência da computação usad
 
 - **Buscas Não Informadas (Cegas):** [Algoritmo de Busca em Largura (BFS - Breadth-First Search)](./breadth_first_search), [Algoritmo de Busca em Profundidade (DFS - Depth-First Search)](./depth_first_search).
 
-- **Buscas em Árvores Específicas ou Buscas Informadas (Heurísticas):** [Busca em Árvore Binária de Busca](), [Busca Gananciosa (Greedy Best-First Search)](), [Algoritmo A (A-Estrela)]().
+- **Buscas em Árvores Específicas ou Buscas Informadas (Heurísticas):** [Busca em Árvore Binária de Busca](), [Busca Gananciosa (Greedy Best-First Search)](), [Algoritmo A (A-Estrela)]() e [Branch and Bound](https://www.geeksforgeeks.org/dsa/branch-and-bound-algorithm/).
 
 - **Algoritmos de Caminho Mínimo em Grafos:** [Dijkstra](), [Bellman-Ford]() e [Floyd-Warshall]().
 
