@@ -1,56 +1,16 @@
 ![Algoritmo de Backtracking](../infograficos/Algoritmo%20de%20Backtracking.png)
 
-****Algoritmos de backtracking**** são estratégias de resolução de problemas que ajudam a explorar diferentes opções até encontrar a solução.
+## O que é Backtracking?
 
-- Funcionam tentando caminhos diferentes e, se um não der certo, voltam atrás e tentam outro até encontrar o caminho correto. É como montar um quebra-cabeça testando peças até que todas se encaixem perfeitamente.
-- São úteis em problemas nos quais é necessário gerar todas as combinações, permutações ou subconjuntos válidos sob determinadas restrições.
+O backtracking (ou "tentativa e erro com retrocesso") é uma técnica algorítmica refinada para resolver problemas recursivamente. Em vez de gerar todas as soluções possíveis e depois testá-las (força bruta pura), o backtracking constrói uma solução candidata passo a passo. Assim que o algoritmo determina que a candidata atual não pode levar a uma solução válida (violando as restrições do problema), ele descarta essa opção ("volta atrás" ou faz o _backtrack_) e tenta o próximo caminho possível.
 
-## ****Noções básicas****
+Imagine estar em um labirinto: você escolhe um caminho, segue até o fim. Se der em um beco sem saída, você volta até a última bifurcação e tenta um caminho diferente. Isso é o backtracking na prática!
 
-1.  [Introdução](https://www.geeksforgeeks.org/dsa/introduction-to-backtracking-2/)
-2.  [Backtracking vs Branch and Bound](https://www.geeksforgeeks.org/dsa/difference-between-backtracking-and-branch-n-bound-technique/)
+### Árvore de Espaço de Estados e Poda (Pruning)
 
-## ****Problemas padrão****
+Todo problema de backtracking pode ser visualizado como uma grande **Árvore de Espaço de Estados**. A raiz é o estado inicial vazio, os ramos são as escolhas que você faz, e as folhas são as soluções completas (válidas ou inválidas). A grande magia do backtracking está na **Poda (Pruning)**: a capacidade de interromper a descida em um galho da árvore assim que percebemos que ele não trará frutos. Isso transforma algoritmos com complexidades astronômicas, como O(n!) ou O(2n), em soluções executáveis na prática.
 
--   [Permutações de uma string](https://www.geeksforgeeks.org/dsa/write-a-c-program-to-print-all-permutations-of-a-given-string/)
--   [Problema do passeio do cavalo](https://www.geeksforgeeks.org/dsa/the-knights-tour-problem/)
--   [Rato em um labirinto](https://www.geeksforgeeks.org/dsa/rat-in-a-maze/)
--   [Problema das N rainhas](https://www.geeksforgeeks.org/dsa/n-queen-problem-backtracking-3/)
--   [Quebra-cabeça criptográfico de soma de palavras](https://www.geeksforgeeks.org/dsa/solving-cryptarithmetic-puzzles/)
--   [Problema da soma de subconjunto](https://www.geeksforgeeks.org/dsa/subset-sum-problem/)
--   [Problema de coloração m](https://www.geeksforgeeks.org/dsa/m-coloring-problem/)
--   [Ciclo hamiltoniano](https://www.geeksforgeeks.org/dsa/hamiltonian-cycle/)
--   [Sudoku](https://www.geeksforgeeks.org/dsa/sudoku-backtracking-7/)
--   [Quebra-cabeça magnético](https://www.geeksforgeeks.org/dsa/magnet-puzzle/)
--   [Remover parênteses inválidos](https://www.geeksforgeeks.org/dsa/remove-invalid-parentheses/)
+## Links de Referências
 
-## ****Problemas fáceis****
-
--   [Encontrar todos os subconjuntos](https://www.geeksforgeeks.org/dsa/backtracking-to-find-all-subsets/)
--   [Verificar string soma](https://www.geeksforgeeks.org/dsa/check-given-string-sum-string/)
--   [Todos os caminhos entre dois vértices](https://www.geeksforgeeks.org/dsa/count-possible-paths-two-vertices/)
--   [Todos os subconjuntos distintos](https://www.geeksforgeeks.org/dsa/find-distinct-subsets-given-set/)
--   [Caminho de comprimento maior que k a partir de uma origem](https://www.geeksforgeeks.org/dsa/find-if-there-is-a-path-of-more-than-k-length-from-a-source/)
--   [Todos os caminhos de uma origem para um destino](https://www.geeksforgeeks.org/dsa/find-paths-given-source-destination/)
-
-## ****Problemas médios****
-
--   [Guerra dos sexos](https://www.geeksforgeeks.org/dsa/tug-of-war/)
--   [Problema das 8 rainhas](https://www.geeksforgeeks.org/dsa/8-queen-problem/)
--   [Soma combinacional](https://www.geeksforgeeks.org/dsa/combinational-sum/)
--   [Algoritmo de Warnsdorff para o passeio do cavalo](https://www.geeksforgeeks.org/dsa/warnsdorffs-algorithm-knights-tour-problem/)
--   [Caminhos da célula do canto até a célula do meio em um labirinto](https://www.geeksforgeeks.org/dsa/find-paths-from-corner-cell-to-middle-cell-in-maze/)
--   [Maior número possível com no máximo K trocas](https://www.geeksforgeeks.org/dsa/find-maximum-number-possible-by-doing-at-most-k-swaps/)
--   [Rato em um labirinto com múltiplos saltos permitidos](https://www.geeksforgeeks.org/dsa/rat-in-a-maze-with-multiple-steps-jump-allowed/)
--   [N rainhas em espaço O(n)](https://www.geeksforgeeks.org/dsa/n-queen-in-on-space/)
-
-## ****Problemas difíceis****
-
--   [Conjunto potência em ordem lexicográfica](https://www.geeksforgeeks.org/dsa/powet-set-lexicographic-order/)
--   [Problema de quebra de palavras usando backtracking](https://www.geeksforgeeks.org/dsa/word-break-problem-using-backtracking/)
--   [Partição de um conjunto em K subconjuntos com soma igual](https://www.geeksforgeeks.org/dsa/partition-set-k-subsets-equal-sum/)
--   [Maior rota possível em uma matriz com obstáculos](https://www.geeksforgeeks.org/dsa/longest-possible-route-in-a-matrix-with-hurdles/)
--   [Rota segura mais curta em um caminho com minas terrestres](https://www.geeksforgeeks.org/dsa/find-shortest-safe-route-in-a-path-with-landmines/)
--   [Todas as partições palindrômicas de uma string](https://www.geeksforgeeks.org/dsa/print-palindromic-partitions-string/)
--   [Impressão de todas as soluções do problema das N rainhas](https://www.geeksforgeeks.org/dsa/printing-solutions-n-queen-problem/)
--   [Todas as subsequências comuns mais longas em ordem lexicográfica](https://www.geeksforgeeks.org/dsa/print-longest-common-sub-sequences-lexicographical-order/)
+1. [Introdução](https://www.geeksforgeeks.org/dsa/introduction-to-backtracking-2/)
+2. [Backtracking vs Branch and Bound](https://www.geeksforgeeks.org/dsa/difference-between-backtracking-and-branch-n-bound-technique/)
