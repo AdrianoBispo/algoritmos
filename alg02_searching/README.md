@@ -6,14 +6,14 @@ Algoritmos de busca são ferramentas essenciais na ciência da computação usad
 
 ### Dados Lineares
 
-- **Algoritmos para Dados Desordenados:** [Algoritmo de Busca Sequencial (ou Linear)](https://www.geeksforgeeks.org/dsa/linear-search/), [Algoritmo de Busca Linear com Sentinela](https://www.geeksforgeeks.org/dsa/sentinel-linear-search/).
+- **Algoritmos para Dados Desordenados:** [Geeks for Geeks - Algoritmo de Busca Sequencial (ou Linear)](https://www.geeksforgeeks.org/dsa/linear-search/), [Geeks for Geeks - Algoritmo de Busca Linear com Sentinela](https://www.geeksforgeeks.org/dsa/sentinel-linear-search/).
 
-- **Algoritmos para Dados Ordenados:** [Técnica de Dois Ponteiros](https://www.geeksforgeeks.org/dsa/two-pointers-technique/), [Algoritmo de Busca Binária](https://www.geeksforgeeks.org/dsa/binary-search/), [Algoritmo de Busca Ternária](https://www.geeksforgeeks.org/dsa/ternary-search/), [Algoritmo de Busca por Interpolação](https://www.geeksforgeeks.org/dsa/interpolation-search/), [Algoritmo de Busca por Salto (Jump Search)](https://www.geeksforgeeks.org/dsa/jump-search/), [Algoritmo de Busca Exponencial](https://www.geeksforgeeks.org/dsa/exponential-search/), [Algoritmo de Busca de Fibonacci](https://www.geeksforgeeks.org/dsa/fibonacci-search/).
+- **Algoritmos para Dados Ordenados:** [Geeks for Geeks - Técnica de Dois Ponteiros](https://www.geeksforgeeks.org/dsa/two-pointers-technique/), [Geeks for Geeks - Algoritmo de Busca Binária](https://www.geeksforgeeks.org/dsa/binary-search/), [Geeks for Geeks - Algoritmo de Busca Ternária](https://www.geeksforgeeks.org/dsa/ternary-search/), [Geeks for Geeks - Algoritmo de Busca por Interpolação](https://www.geeksforgeeks.org/dsa/interpolation-search/), [Geeks for Geeks - Algoritmo de Busca por Salto (Jump Search)](https://www.geeksforgeeks.org/dsa/jump-search/), [Geeks for Geeks - Algoritmo de Busca Exponencial](https://www.geeksforgeeks.org/dsa/exponential-search/), [Geeks for Geeks - Algoritmo de Busca de Fibonacci](https://www.geeksforgeeks.org/dsa/fibonacci-search/).
 
 ### Dados Não Lineares
 
-- **Buscas Não Informadas (Cegas):** [Algoritmo de Busca em Largura (BFS - Breadth-First Search)](./breadth_first_search), [Algoritmo de Busca em Profundidade (DFS - Depth-First Search)](./depth_first_search).
+- **Buscas Não Informadas (Cegas):** [Geeks for Geeks - Algoritmo de Busca em Largura (BFS - Breadth-First Search)](https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/), [Geeks for Geeks - Algoritmo de Busca em Profundidade (DFS - Depth-First Search)](https://www.geeksforgeeks.org/dsa/depth-first-search-or-dfs-for-a-graph/).
 
-- **Buscas em Árvores Específicas ou Buscas Informadas (Heurísticas):** [Busca em Árvore Binária de Busca](), [Busca Gananciosa (Greedy Best-First Search)](), [Algoritmo A (A-Estrela)]() e [Branch and Bound](https://www.geeksforgeeks.org/dsa/branch-and-bound-algorithm/).
+- **Buscas em Árvores Específicas ou Buscas Informadas (Heurísticas):** [Geeks for Geeks - Busca em Árvore Binária de Busca](https://www.geeksforgeeks.org/dsa/binary-search-tree-data-structure/), [Geeks for Geeks - Busca Gananciosa (Greedy Best-First Search)](https://www.geeksforgeeks.org/dsa/greedy-best-first-search-algorithm/), [Geeks for Geeks - Algoritmo A (Geeks for Geeks - A-Estrela)](https://www.geeksforgeeks.org/dsa/a-search-algorithm/) e [Geeks for Geeks - Branch and Bound](https://www.geeksforgeeks.org/dsa/branch-and-bound-algorithm/).
 
-- **Algoritmos de Caminho Mínimo em Grafos:** [Dijkstra](), [Bellman-Ford]() e [Floyd-Warshall]().
+- **Algoritmos de Caminho Mínimo em Grafos:** [Geeks for Geeks - Dijkstra](https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/), [Geeks for Geeks - Bellman-Ford](https://www.geeksforgeeks.org/dsa/bellman-ford-algorithm-dp-23/) e [Geeks for Geeks - Floyd-Warshall](https://www.geeksforgeeks.org/dsa/floyd-warshall-algorithm-dp-16/).
