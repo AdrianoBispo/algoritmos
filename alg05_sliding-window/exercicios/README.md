@@ -2,7 +2,11 @@
 
 Esta lista de exercícios e guia de estudos foi criada para fortalecer a lógica de programação utilizando a técnica de **Janela Flutuante (Sliding Window)**. O foco aqui não é a sintaxe específica de uma linguagem, mas sim o raciocínio algorítmico estruturado. Você pode resolver esses problemas utilizando qualquer linguagem de programação moderna (C, C++, Java, Python, JavaScript/TypeScript, Go, Rust, etc.).
 
-## 🟢 Nível: Fácil
+<details>
+  <summary>🟢 Nível: Fácil</summary>
+
+<p>
+
 
 Neste nível, os problemas focam na mecânica básica de criar uma janela, expandi-la e deslizá-la sem lógicas de condição muito complexas.
 
@@ -425,7 +429,15 @@ x
     ```
     ) percorre o array no máximo uma vez. Espaço O(1).
 
-## 🟡 Nível: Médio
+</p>
+
+</details>
+
+<details>
+  <summary>🟡 Nível: Médio</summary>
+
+<p>
+
 
 Problemas de nível médio frequentemente requerem o uso de estruturas de dados auxiliares (como Mapas de Hash ou Sets) para gerenciar o estado dos elementos que estão _dentro_ da janela dinâmica.
 
@@ -1766,7 +1778,15 @@ P
     .
 -   **Complexidade:** Tempo O(N), Espaço O(N).
 
-## 🔴 Nível: Difícil
+</p>
+
+</details>
+
+<details>
+  <summary>🔴 Nível: Difícil</summary>
+
+<p>
+
 
 Os problemas difíceis de Janela Flutuante frequentemente exigem a mistura de múltiplas técnicas (como pilhas monotônicas, mapas sofisticados, ou janelas duplas atípicas). A compreensão cristalina dos níveis anteriores é imperativa aqui.
 
@@ -2096,6 +2116,10 @@ K
     ```
     . Guarde o valor máximo visto.
 -   **Complexidade:** Tempo O(N) varredura simples, Espaço O(N) (que pode ser otimizado para O(1) se a soma for controlada sem array paralelo completo).
+
+</p>
+
+</details>
 
 ## Dicas Finais para Implementação e Estudos
 

@@ -2,7 +2,11 @@
 
 Esta lista de exercícios tem como objetivo fortalecer e expandir sua lógica de programação em torno de uma das técnicas mais elegantes e fundamentais da ciência da computação: a **Soma de Prefixo** (Prefix Sum). Os problemas abaixo estão organizados por ordem crescente de dificuldade e foram elaborados de forma agnóstica de linguagem. Sinta-se livre para resolvê-los em C, C++, C#, Java, Kotlin, Javascript/Typescript, Python, PHP, Go, Ruby ou qualquer outra linguagem de sua preferência.
 
-## NÍVEL INICIANTE: Fundamentos da Soma de Prefixo
+<details>
+  <summary>NÍVEL INICIANTE: Fundamentos da Soma de Prefixo</summary>
+
+<p>
+
 
 Nesta seção, o foco é entender a mecânica básica de acumulação de valores e como reverter esse processo ou utilizá-lo para consultas rápidas.
 
@@ -298,7 +302,15 @@ i
     ```
      (No índice 0, fazemos 2 \* 3 \* 4. No índice 1, fazemos 1 \* 3 \* 4, etc.)
 
-## NÍVEL INTERMEDIÁRIO: Explorando Hashes e Janelas
+</p>
+
+</details>
+
+<details>
+  <summary>NÍVEL INTERMEDIÁRIO: Explorando Hashes e Janelas</summary>
+
+<p>
+
 
 Neste nível, a técnica de Prefix Sum é combinada com Dicionários/Hash Maps e algoritmos de Janela Deslizante (Sliding Window) para alcançar complexidades O(N) em problemas complexos.
 
@@ -880,7 +892,15 @@ aux
     ```
      (O número 3 ocorre dentro de todos os 3 limites).
 
-## NÍVEL AVANÇADO: Prefix Sum 2D e Submatrizes
+</p>
+
+</details>
+
+<details>
+  <summary>NÍVEL AVANÇADO: Prefix Sum 2D e Submatrizes</summary>
+
+<p>
+
 
 Onde a matemática plana entra em cena. Lidar com grades bidimensionais exige cuidado absoluto com os índices, normalmente aplicando o **Princípio da Inclusão-Exclusão** da teoria dos conjuntos, mapeado para programação geométrica.
 
@@ -1047,3 +1067,7 @@ Ao codificar esses exercícios, você provavelmente se deparará com falhas no c
 3.  Nunca modifique o array original (a menos que a restrição espacial seja O(1) extremo). Aloque sempre um novo array para a Prefix Sum e salve dores de cabeça com rastreio de memória corrompida.
 
 **Bons estudos e ótimo código!**
+
+</p>
+
+</details>

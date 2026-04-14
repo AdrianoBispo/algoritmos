@@ -2,7 +2,11 @@
 
 Esta lista foi elaborada para fortalecer a sua lógica de programação através da técnica de **Programação Dinâmica (DP - Dynamic Programming)**. O objetivo deste documento não é fornecer código pronto para copiar e colar, mas sim o raciocínio analítico necessário para modelar o **estado** e a **transição** de cada problema. Isso permitirá que você resolva os desafios na linguagem de programação de sua preferência (C, Python, Java, Go, Typescript, etc.).
 
-## 🟢 Problemas básicos
+<details>
+  <summary>🟢 Problemas básicos</summary>
+
+<p>
+
 
 Estes problemas são focados em reconhecimento de padrões simples (sequências matemáticas) e modelagem de estado unidimensional.
 
@@ -1014,7 +1018,15 @@ Estes problemas são focados em reconhecimento de padrões simples (sequências 
 
 _(Reincidência ignorada: As características técnicas deste item são idênticas às descritas no item 12)._
 
-## 🟡 Problemas fáceis
+</p>
+
+</details>
+
+<details>
+  <summary>🟡 Problemas fáceis</summary>
+
+<p>
+
 
 Neste nível, você começará a lidar com grades bidimensionais completas, strings simples e os primeiros problemas da família da "mochila" (Knapsack) com decisões de otimização clara (pegar ou não pegar um elemento).
 
@@ -1870,7 +1882,15 @@ Neste nível, você começará a lidar com grades bidimensionais completas, stri
     ```
     ).
 
-## 🟠 Problemas médios
+</p>
+
+</details>
+
+<details>
+  <summary>🟠 Problemas médios</summary>
+
+<p>
+
 
 Os exercícios aqui escalam de dificuldade. Eles costumam combinar dois parâmetros no estado (matrizes DP bidimensionais) e requerem um processo transicional bem fundamentado. Problemas de Subsequência são reis nesta etapa.
 
@@ -2283,7 +2303,15 @@ _(Esses exercícios cobrem matrizes binárias e permutações restritivas. Darem
     ```
      no banco de ram base RAM nativa memória matriz estática puro escalar limite de RAM do hospedeiro basal de memória.
 
-## 🔴 Problemas difíceis
+</p>
+
+</details>
+
+<details>
+  <summary>🔴 Problemas difíceis</summary>
+
+<p>
+
 
 Estes não pedem apenas o DP. Eles costumam pedir conhecimento de Game Theory, Manipulação em Árvores e otimizações matemáticas com O-Grandes assustadores limitantes cegos purificados array estático alvo cruzado focado limite escalar e vetores nativos e arrays abstratos.
 
@@ -2368,3 +2396,7 @@ Muitos problemas mascarados de difíceis escondem a verdade que são fáceis se 
 A Programação Dinâmica premia não o "chute", mas a capacidade de quebrar os tabus visuais. Tudo se reduz à mesma matemática implacável matriz base matriz limítrofe: Casos base sólidos + Regras de Herança Histórica limitante base pura limpa limitante de decisões referenciadas. Recomenda-se aos estudantes recriar o array ou tabela de cada problema no papel com 3 ou 4 itens, traçar as bordas e preencher manualmente os quadrados antes de escrever a primeira linha e compilar o código.
 
 Boas otimizações e bom código a todos!
+
+</p>
+
+</details>

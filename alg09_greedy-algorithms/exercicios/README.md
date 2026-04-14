@@ -2,7 +2,11 @@
 
 Este documento contém uma lista de exercícios focada em Algoritmos Gananciosos, organizados por nível de dificuldade e por categorias de aplicação. O objetivo é fortalecer a lógica de programação. Você pode implementar as soluções na linguagem de sua preferência (C, C++, Java, Python, JavaScript, Go, etc).
 
-## 🟢 Problemas Fáceis
+<details>
+  <summary>🟢 Problemas Fáceis</summary>
+
+<p>
+
 
 ### 1\. Mochila fracionária
 
@@ -345,7 +349,15 @@ N
     5
     ```
 
-## 🟡 Problemas Médios
+</p>
+
+</details>
+
+<details>
+  <summary>🟡 Problemas Médios</summary>
+
+<p>
+
 
 ### 12\. Seleção de atividades
 
@@ -744,7 +756,15 @@ K
     "bbb"
     ```
 
-## 🔴 Problemas Difíceis
+</p>
+
+</details>
+
+<details>
+  <summary>🔴 Problemas Difíceis</summary>
+
+<p>
+
 
 ### 29\. Minimizar a diferença máxima de altura
 
@@ -964,6 +984,10 @@ K
     ```
     "abcabc"
     ```
+
+</p>
+
+</details>
 
 ## 🏛️ Algoritmos Gananciosos Clássicos
 

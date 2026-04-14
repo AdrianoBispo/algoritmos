@@ -12,7 +12,11 @@ O objetivo desta lista é fortalecer a sua lógica de programação explorando u
 
 Sinta-se à vontade para implementar as soluções utilizando a linguagem de programação de sua preferência (C, C++, Java, Python, JavaScript, Go, Ruby, etc.). Recomenda-se tentar entender a base matemática antes de ir para o código.
 
-## 🟢 Problemas Fáceis
+<details>
+  <summary>🟢 Problemas Fáceis</summary>
+
+<p>
+
 
 Nesta seção, focaremos em manipulação direta de geradores de números pseudoaleatórios (PRNGs), conversão de probabilidades e distribuições simples.
 
@@ -698,7 +702,15 @@ P
     ```
     .
 
-## 🟡 Problemas Médios
+</p>
+
+</details>
+
+<details>
+  <summary>🟡 Problemas Médios</summary>
+
+<p>
+
 
 Aqui, a complexidade matemática e algorítmica se eleva. Utilizaremos aleatoriedade para otimizar ordenação (QuickSort), simular processos complexos (Monte Carlo) e corrigir viés estocástico.
 
@@ -1160,7 +1172,15 @@ rand6() + rand6()
     ```
     , provando expansão não paramétrica de domínio em One-Liners.
 
-## 🔴 Problemas Difíceis
+</p>
+
+</details>
+
+<details>
+  <summary>🔴 Problemas Difíceis</summary>
+
+<p>
+
 
 Este bloco foca em manipulação extrema de distribuições, lidar com _fluxos ininterruptos_ de dados assíncronos (Reservoir Sampling), matemática de grafos orientada a probabilidades (Corte Mínimo) e verificação polinomial com tolerância a falhas probabilística.
 
@@ -1583,3 +1603,7 @@ AxB
     DFS (Busca em Profundidade)
     ```
      parametrizadas atestando limites englobadores contíguos passando nova coordenada referencial da ponta vizinha atual ao fluxo gerador englobador da simulação recursiva base analítica e contígua do limitador posicional. **Input:** Grade X,Y em inteiros. **Output:** Tabela preenchida atestando 0/1 limitando percursos labirínticos acíclicos em 100% do território processado.
+
+</p>
+
+</details>

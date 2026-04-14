@@ -4,9 +4,8 @@ Esta lista foi elaborada para fortalecer a lógica de programação e o entendim
 
 <details>
   <summary>Problemas Fáceis</summary>
-  <p>
+<p>
 
-## Problemas Fáceis
 
 ### 1\. Substrings com apenas um Caractere Específico (Substrings with only Given Character)
 
@@ -133,14 +132,13 @@ Esta lista foi elaborada para fortalecer a lógica de programação e o entendim
     Índices: 0, 3
     ```
 
-  </p>
+</p>
 </details>
 
 <details>
   <summary>Problemas Médios</summary>
-  <p>
+<p>
 
-## Problemas Médios
 
 ### 6\. Busca de Substring de Anagramas (Anagram Substring Search)
 
@@ -291,14 +289,13 @@ Esta lista foi elaborada para fortalecer a lógica de programação e o entendim
     Total de caminhos válidos encontrados
     ```
 
-  </p>
+</p>
 </details>
 
 <details>
   <summary>Problemas Difíceis</summary>
-  <p>
+<p>
 
-## Problemas Difíceis
 
 ### 12\. Busca de Palavras em Ziguezague (Word Search with Zig-Zag)
 
@@ -470,5 +467,5 @@ a*
     True
     ```
 
-  </p>
+</p>
 </details>

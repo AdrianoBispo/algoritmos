@@ -30,7 +30,11 @@ Esta lista contém 66 exercícios clássicos de geometria computacional e matem�
     
 -   **Aplicações Reais:** Os conceitos aqui abordados são a base para o desenvolvimento de Motores de Jogos (Game Engines), Sistemas de Informação Geográfica (GIS), softwares de design (CAD) e Visão Computacional.
 
-## 📐 Retas e Segmentos
+<details>
+  <summary>📐 Retas e Segmentos</summary>
+
+<p>
+
 
 As retas são os blocos de construção fundamentais da geometria computacional. Em programação de jogos e computação gráfica, elas são usadas para simular trajetórias, raios de luz (Raytracing) e limites de colisão básicos.
 
@@ -204,8 +208,14 @@ As retas são os blocos de construção fundamentais da geometria computacional.
     2
     ```
      (Um tiro varre os pontos na reta y=x, e outro tiro acerta y=1.5x)
+</p>
+</details>
 
-## 🔺 Triângulo
+<details>
+  <summary>🔺 Triângulo</summary>
+
+<p>
+
 
 Triângulos são as formas bidimensionais mais simples. Em computação gráfica 3D, toda superfície (malha) é subdividida em milhares de triângulos para facilitar os cálculos matemáticos da placa de vídeo (GPU).
 
@@ -393,8 +403,14 @@ Triângulos são as formas bidimensionais mais simples. Em computação gráfica
     ```
     5.0
     ```
+</p>
+</details>
 
-## 🔲 Retângulo | Quadrado | Círculo
+<details>
+  <summary>🔲 Retângulo | Quadrado | Círculo</summary>
+
+<p>
+
 
 Estas são as formas base de grande parte do processamento em softwares modernos, especialmente quando falamos de janelas do sistema operacional, zonas ativas em um site da internet, e detecção ampla em videogames.
 
@@ -677,8 +693,14 @@ Estas são as formas base de grande parte do processamento em softwares modernos
     ```
     2
     ```
+</p>
+</details>
 
-## 🔷 Quadrilátero
+<details>
+  <summary>🔷 Quadrilátero</summary>
+
+<p>
+
 
 Polígonos convexos de quatro lados cobrem uma grande variação de classes e são a base do desenho arquitetônico projetivo clássico e de cálculos paramétricos em malhas topográficas para construções 3D otimizadas e renderizações complexas focadas nos polígonos que economizam polígonos extras triangulares.
 
@@ -821,8 +843,14 @@ Polígonos convexos de quatro lados cobrem uma grande variação de classes e s�
     ```
     (1,2)
     ```
+</p>
+</details>
 
-## 🧊 Objetos 3D
+<details>
+  <summary>🧊 Objetos 3D</summary>
+
+<p>
+
 
 Na engenharia computacional de terceira dimensão, objetos volumétricos representam instâncias modeladas usadas para predição física, caixas delimitadoras colisorias completas (Hitboxes 3D) e arquitetura em malhas virtuais voxel.
 
@@ -992,8 +1020,14 @@ Na engenharia computacional de terceira dimensão, objetos volumétricos represe
     ```
     Matriz tridimensional massiva gigantesca listando coordenadas englobando a trama renderizada de coordenadas 3D para o pipeline da GPU de placa de vídeo processar para jogar em renderização final engarrafando visual na tela lida abstrata gerando render final limpo pronto para renderização na malha englobada.
     ```
+</p>
+</details>
 
-## ⬠ Polígono e Casco Convexo
+<details>
+  <summary>⬠ Polígono e Casco Convexo</summary>
+
+<p>
+
 
 O processamento matemático envolvendo muitos pontos formadores de polígonos irregulares e colapsados são as jóias de coroamento da geometria computacional na otimização de varreduras em nuvens de dados colossais e clusters densos estendendo as físicas amarradas engessadas em formas complexas não simétricas isoladas e deformadas irregulares simuladas nos emaranhados dinâmicos e motores lidos modernos.
 
@@ -1053,6 +1087,8 @@ _(Para poupar tempo e ser enxuto sem perder a robustez ou estourar a repetição
     [(0,3), (0,0), (3,1), (4,4)]
     ```
      (O elástico ignorou os pontos intermediários e se ancorou apenas nos externos)
+</p>
+</details>
 
 ## 🛠️ Problemas padrão em algoritmos geométricos
 

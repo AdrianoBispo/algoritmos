@@ -4,7 +4,11 @@ Este documento contém uma lista progressiva e detalhada de problemas focada na 
 
 O objetivo deste material é desenvolver a sua lógica de programação. Compreenda o passo a passo algorítmico e as implicações de cada decisão antes de ir para o código. Você pode resolver esses problemas utilizando a linguagem de sua preferência (C, C++, Java, Python, Javascript, Go, etc.).
 
-## Nível: Fácil (Easy Problems)
+<details>
+  <summary>Nível: Fácil (Easy Problems)</summary>
+
+<p>
+
 
 ### 1\. [Remover Ocorrências](https://www.geeksforgeeks.org/dsa/remove-element/ "null")
 
@@ -1092,7 +1096,15 @@ array[i] >= 5 * array[j]
     
     )
 
-## Nível: Médio (Medium Problems)
+</p>
+
+</details>
+
+<details>
+  <summary>Nível: Médio (Medium Problems)</summary>
+
+<p>
+
 
 ### 14\. [Contar Pares com Diferença Absoluta Igual a k](https://www.geeksforgeeks.org/dsa/count-pairs-difference-equal-k/ "null")
 
@@ -2003,7 +2015,15 @@ conhece(A, B)
     
 -   **Output:** A Celebridade da festa é, indiscutivelmente, a Pessoa 1.
 
-## Nível: Difícil (Hard Problems)
+</p>
+
+</details>
+
+<details>
+  <summary>Nível: Difícil (Hard Problems)</summary>
+
+<p>
+
 
 ### 23\. [Problema de Retenção de Água da Chuva](https://www.geeksforgeeks.org/dsa/trapping-rain-water/ "null")
 
@@ -2372,3 +2392,7 @@ A técnica de Dois Ponteiros é uma das ferramentas mais belas, poderosas e eleg
 3.  **Estou sendo requisitado para inspecionar um escopo limiar global que deve se expandir contínuo sem saltos para atender limites restritos contendo soma, máximos e alvos e esvaziando excessos?** (Pense com força em Janelas Deslizantes - Sliding Window).
 
 Pratique a listagem massiva até as mãos codificadoras mecanizarem instintivamente a reação limpa das sub-regras e limites. Ao terminar a lista em linguagem natural pura pseudocodificada do português nativo de aprendizado limpo de base engenhada pra programador, escreva em código C ou base estrita Java sem métodos de ajuda do compilador/engine. Boa sorte, forte abstração cerebral pra ti e ótima rotina dura nos teus futuros estudos!
+
+</p>
+
+</details>

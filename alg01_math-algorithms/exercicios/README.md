@@ -5,7 +5,9 @@ Esta lista foi elaborada para fortalecer a lógica de programação através de 
 Dominar esses problemas ajuda a desenvolver o "pensamento computacional", essencial para resolver problemas complexos de engenharia de software e ciência de dados.
 
 <details>
-    <summary>🟢 Problemas Fáceis</summary>
+  <summary>🟢 Problemas Fáceis</summary>
+
+<p>
 
 _Foco: Sintaxe básica, laços simples, fórmulas diretas, lógica condicional, raízes e propriedades de divisibilidade._
 
@@ -874,10 +876,14 @@ _Foco: Sintaxe básica, laços simples, fórmulas diretas, lógica condicional, 
     True
     ```
     .
+
+</p>
 </details>
 
 <details>
-    <summary>🟠 Problemas Médios</summary>
+  <summary>🟠 Problemas Médios</summary>
+
+<p>
 
 _Foco: Primalidade, fatoração e algoritmos de busca espacial._
 
@@ -1250,10 +1256,14 @@ _Foco: Primalidade, fatoração e algoritmos de busca espacial._
     55
     ```
     .
+
+</p>
 </details>
 
 <details>
-    <summary>🔴 Problemas Difíceis</summary>
+  <summary>🔴 Problemas Difíceis</summary>
+
+<p>
 
 _Foco: Otimização extrema e conceitos avançados._
 
@@ -1418,4 +1428,6 @@ _Foco: Otimização extrema e conceitos avançados._
     .
 
 **Dica para Estudos:** Ao implementar, tente primeiro a solução mais óbvia e depois procure a otimização matemática para entender por que alguns algoritmos são milhares de vezes mais rápidos que outros.
+
+</p>
 </details>

@@ -6,7 +6,11 @@ A ordenação (Sorting) é um dos tópicos mais fundamentais da Ciência da Comp
 
 **Como usar esta lista:** Você pode implementar essas soluções na linguagem de programação de sua preferência (C, C++, Java, Python, JavaScript, C#, Ruby, Go, etc.). Não se apresse em olhar o código pronto na internet. Leia a descrição, entenda a regra de negócio e siga o **"Passo a Passo Sugerido"** para desenhar a estrutura do seu algoritmo mentalmente ou no papel. Preste muita atenção na seção de **"Dicas e Casos Extremos"** e tente atingir a **"Complexidade Esperada"** em suas submissões.
 
-## 🟢 Easy Problems (Nível Fácil)
+<details>
+  <summary>🟢 Easy Problems (Nível Fácil)</summary>
+
+<p>
+
 
 Esses problemas focam em aplicar a ordenação direta para revelar padrões nos dados e introduzem o pensamento guloso (Greedy) básico.
 
@@ -422,7 +426,15 @@ N
     ```
      (O par é 2 e 80)
 
-## 🟡 Medium Problems (Nível Médio)
+</p>
+
+</details>
+
+<details>
+  <summary>🟡 Medium Problems (Nível Médio)</summary>
+
+<p>
+
 
 A partir daqui, os problemas exigem combinações de técnicas. A ordenação será apenas o primeiro passo para preparar o terreno para algoritmos mais complexos.
 
@@ -1623,7 +1635,15 @@ A[i] + B[i] >= K
     ```
      (Testando 1+9, 2+8, 3+7: todas dão exatamente 10).
 
-## 🔴 Hard Problems (Nível Difícil)
+</p>
+
+</details>
+
+<details>
+  <summary>🔴 Hard Problems (Nível Difícil)</summary>
+
+<p>
+
 
 A fronteira final. Estes problemas exigem extrema clareza e uso profundo de Estruturas de Dados ou algoritmos não triviais, frequentemente com restrições rígidas de Espaço em RAM (O(1)).
 
@@ -2141,3 +2161,7 @@ A[i] <= N^2 - 1
     [1, 2, 3, 4]
     ```
      (Independentemente da alocação de pais na hierarquia ou posição na esquerda e direita da árvore da matriz de forja, a saída resultará ordenada matriz barreira na emissão por limite referencial e valor absoluto liminar no repasse da testagem do output).
+
+</p>
+
+</details>

@@ -20,7 +20,11 @@ Para cada problema, você encontrará a descrição geométrica, a Entrada (Inpu
 
 Além disso, adicionamos as **Complexidades de Tempo e Espaço (Big-O)**, **Casos Extremos (Edge Cases)** que costumam quebrar códigos mal testados, e uma **Dica de Ouro** para identificar o padrão por trás do problema.
 
-## 🟢 Easy Problems (Problemas Fáceis)
+<details>
+  <summary>🟢 Easy Problems (Problemas Fáceis)</summary>
+
+<p>
+
 
 Problemas de nível fácil geralmente exigem o domínio de estruturas de repetição, lógica condicional básica e uma introdução a ponteiros e matemática simples aplicada a arrays. O objetivo aqui é aprender a otimizar soluções de Força Bruta O(N2) para O(N) ou O(logN).
 
@@ -804,7 +808,15 @@ arr = [1, 3, 50, 10, 9, 7, 6]
     ```
     ). **💡 Dica de Ouro:** Problemas "bitônicos" ensinam que você não precisa saber os valores extremos prévios para decidir a direção da busca binária; a derivada instantânea (a variação pontual entre dois elementos adjacentes) é suficiente para mapear o comportamento da curva de dados.
 
-## 🟡 Medium Problems (Problemas Médios)
+</p>
+
+</details>
+
+<details>
+  <summary>🟡 Medium Problems (Problemas Médios)</summary>
+
+<p>
+
 
 Os problemas médios trazem combinações de técnicas. A complexidade teórica dos enunciados sobe, e abordagens ingênuas O(N2) resultarão em erros do tipo "Time Limit Exceeded" (TLE). Você será testado em fusões de ordenações cíclicas, algoritmos matemáticos como o de Moore, e buscas aplicadas de maneiras criativas.
 
@@ -1842,7 +1854,15 @@ K=3
     
 3.  Lance uma rede arrastão da direita e jogue pás varredoras nas nuvens excedentes da contabilidade que sobrarem passando dessa teto ditadura de regulamentos base limítrofe avaliativa cume, arrancando os escalpes das chaminés sobressalentes e contabilizando o lixo arrastado. Limpe as torres deixadas na margem esquerda abandonadas ao relento da base isolada avaliativa e limítrofe e pilar referenciado piso varrido por exclusão demolidora varredora limpando até o chão varrendo e saqueando a conta de exclusão arrastando e tratorando a pureza original aniquiladora inteiriça (saqueando tudo base total e plena restrição exata delas isoladas demolidas varrendo aos zeros da base absoluta pura num impiedoso expurgo contábil total varredor varrendo tudo base aniquilador perante exclusão absoluta estrita). Totalize gastos dessa hipótese provável. E rastreie perante o histórico de competidores temporais para pescar com paciência o prêmio do lixeiro com melhor saldo e lixo mínimo contábil arrastado salvo e protegido global restritivo varredor avaliado com cotações avaliativas mínimas salvaguardadas base limítrofe mínima referenciada histórica contábil exata avaliada pura. **⏱️ Complexidade:** Tempo O(NlogN) (com Prefix Sums otimizados na contagem). Espaço O(N). **💡 Dica de Ouro:** A simulação num array perfeitamente organizado prova que remover a mais ou arrancar tudo torna-se um jogo de contas simples do colégio.
 
-## 🔴 Hard Problems (Problemas Difíceis)
+</p>
+
+</details>
+
+<details>
+  <summary>🔴 Hard Problems (Problemas Difíceis)</summary>
+
+<p>
+
 
 O reino dos Hard Problems é marcado pelo "Binary Search on Answer" (Busca Binária no Espaço de Resposta), Otimizações em Grids Múltiplos com Mediana Geométrica e Partições Críticas de Alta Frequência nas Meta/Google Interviews.
 
@@ -2025,3 +2045,7 @@ ações
     .
 
 **🏆 Parabéns por chegar até o fim! Bons estudos e lembre-se: a prática em LeetCode e HackerRank cimentará estes padrões neurais logarítmicos avaliativos em reflexos incondicionados naturais nativos base perfeitos formadores implacáveis inquestionáveis definitivos vitais definitivos base incontestáveis exatos e brilhantes. Avante rumo à Engenharia e Arquitetura de Software de Elite!**
+
+</p>
+
+</details>

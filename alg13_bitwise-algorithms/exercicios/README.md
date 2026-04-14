@@ -18,7 +18,11 @@ Operações em nível de bit são executadas diretamente pela Unidade Lógica e 
     
 -   **Programação Dinâmica:** Técnicas de _Bitmasking_ reduzem drasticamente o espaço de estados em problemas combinatórios complexos (como o Caixeiro Viajante).
 
-## Nível: Fácil
+<details>
+  <summary>Nível: Fácil</summary>
+
+<p>
+
 
 ### 1\. Representação binária
 
@@ -1582,7 +1586,15 @@ Operações em nível de bit são executadas diretamente pela Unidade Lógica e 
           90
           ```
 
-## Nível: Médio
+</p>
+
+</details>
+
+<details>
+  <summary>Nível: Médio</summary>
+
+<p>
+
 
 ### 16\. Bit definido mais significativo
 
@@ -2926,7 +2938,15 @@ Operações em nível de bit são executadas diretamente pela Unidade Lógica e 
     ```
      (0101)
 
-## Nível: Difícil
+</p>
+
+</details>
+
+<details>
+  <summary>Nível: Difícil</summary>
+
+<p>
+
 
 ### 34\. Próximo maior com os mesmos bits definidos
 
@@ -3162,3 +3182,7 @@ Operações em nível de bit são executadas diretamente pela Unidade Lógica e 
     ```
     [5, 1]
     ```
+
+</p>
+
+</details>
