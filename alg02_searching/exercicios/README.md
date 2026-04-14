@@ -1,4 +1,4 @@
-# Lista de Exercícios
+# Lista de Exercícios - Algoritmos de Busca
 
 Este documento é focado no fortalecimento da lógica de programação através da resolução de problemas clássicos e avançados de algoritmos de busca. Os exercícios estão divididos por nível de dificuldade e foram cuidadosamente selecionados para cobrir os principais padrões algorítmicos cobrados em entrevistas técnicas e competições de programação.
 
@@ -7,7 +7,7 @@ Para cada problema, você encontrará a descrição geométrica, a Entrada (Inpu
 Além disso, adicionamos as **Complexidades de Tempo e Espaço (Big-O)**, **Casos Extremos (Edge Cases)** que costumam quebrar códigos mal testados, e uma **Dica de Ouro** para identificar o padrão por trás do problema.
 
 <details>
-  <summary>🟢 Problemas Fáceis</summary>
+  <summary>🟢 Nível 1 - Fácil</summary>
 <p>
 
 Problemas de nível fácil geralmente exigem o domínio de estruturas de repetição, lógica condicional básica e uma introdução a ponteiros e matemática simples aplicada a arrays. O objetivo aqui é aprender a otimizar soluções de Força Bruta O(N2) para O(N) ou O(logN).
@@ -797,7 +797,7 @@ arr = [1, 3, 50, 10, 9, 7, 6]
 </details>
 
 <details>
-  <summary>🟡 Problemas Médios</summary>
+  <summary>🟡 Nível 2 - Médio</summary>
 
 <p>
 
@@ -1842,7 +1842,7 @@ K=3
 </details>
 
 <details>
-  <summary>🔴 Problemas Difíceis</summary>
+  <summary>🔴 Nível 3 - Difícil</summary>
 
 <p>
 
