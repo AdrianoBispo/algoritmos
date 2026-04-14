@@ -1,16 +1,33 @@
-# Lista de Exercícios
+# Lista de Exercícios - Algoritmo de Backtracking
 
 Bem-vindo(a) à sua jornada de domínio em Algoritmos de Backtracking! Esta lista foi elaborada para focar no fortalecimento da sua lógica de programação e na sua capacidade de resolver problemas complexos de otimização e busca.
 
 Você pode implementar as soluções na linguagem de programação de sua preferência (C, C++, C#, Java, Kotlin, Javascript/Typescript, Python, PHP, Go, Ruby, etc.). Concentre-se em entender a **transição de estado**, como os dados são modificados na ida da recursão e como devem ser restaurados no retorno.
 
+### Dicas Gerais de Debugging em Backtracking
+
+Entender a lógica de ida e volta (backtracking) é como aprender a andar de bicicleta: depois que o conceito "clica", problemas que pareciam impossíveis viram combinações de decisões e validações.
+
+**Seu código falhou ou entrou em Loop? Pergunte-se:**
+
+1.  **Minha base case (condição de parada) está correta?**
+    Se ela estiver errada (ou ausente), o algoritmo pode entrar em loop, causar estouro de pilha (Stack Overflow) ou estourar limite de tempo.
+    
+2.  **Estou desfazendo o estado corretamente no retorno?**
+    Toda escolha feita na ida deve ser desfeita na volta. Exemplos: remover item da lista, desmarcar `visited`, restaurar célula na matriz.
+    
+3.  **Estou salvando cópia ou referência?**
+    Em Python e Java, listas e arrays são estruturas por referência. Ao salvar uma solução parcial, grave uma cópia (por exemplo, `minha_lista.copy()`), não a referência original.
+    
+4.  **Estou podando galhos inviáveis cedo?**
+    A árvore de busca cresce de forma exponencial. Sem poda (checagens antecipadas), o código tende a ficar lento e pode gerar TLE (Time Limit Exceeded).
+
+Treine com frequência, desenhe a árvore de estados no papel antes de codar e valide casos simples manualmente. Em backtracking, raciocínio vem antes de implementação.
+
 <details>
-  <summary>🟢 Problemas Fáceis</summary>
+  <summary>🟢 Nível 1 - Fácil</summary>
 
 <p>
-
-<p>
-
 Nesta seção, o foco está em entender a mecânica básica de inclusão/exclusão e a navegação simples em árvores de decisão.
 
 ### 1\. [Encontrar todos os subconjuntos](https://www.geeksforgeeks.org/dsa/backtracking-to-find-all-subsets/ "null")
@@ -168,17 +185,12 @@ Nesta seção, o foco está em entender a mecânica básica de inclusão/exclus�
 
 </p>
 
-</p>
-
 </details>
 
 <details>
-  <summary>🟡 Problemas Médios</summary>
+  <summary>🟠 Nível 2 - Médio</summary>
 
 <p>
-
-<p>
-
 Aqui, o estado armazenado fica mais complexo e as condições de poda tornam-se essenciais para a performance do algoritmo.
 
 ### 7\. [Guerra dos sexos (Tug of war)](https://www.geeksforgeeks.org/dsa/tug-of-war/ "null")
@@ -793,17 +805,12 @@ Estes são os "Hello World" avançados do Backtracking. São amplamente cobrados
 
 </p>
 
-</p>
-
 </details>
 
 <details>
-  <summary>🔴 Problemas Difíceis</summary>
+  <summary>🔴 Nível 3 - Difícil</summary>
 
 <p>
-
-<p>
-
 As restrições multiplicam-se e os tempos de cálculo de força bruta implodiriam sua RAM se as técnicas de poda não forem inteligentemente estruturadas. Requerem paciência analítica apurada de alto nível acadêmico de raciocínio.
 
 ### 26\. [Conjunto potência em ordem lexicográfica rigorosa](https://www.geeksforgeeks.org/dsa/powet-set-lexicographic-order/ "null")
@@ -993,28 +1000,6 @@ As restrições multiplicam-se e os tempos de cálculo de força bruta implodiri
     
 -   **Output:** 
     `["ababa", "abaca", "abcba", "acaba", "acaca", "acbca"]`
-
-## Conclusão e Dicas Gerais de Debugging em Backtracking
-
-Entender a lógica de ida e volta (Backtrack) é como aprender a andar de bicicleta: depois que o cérebro "clica", os problemas que antes pareciam impossíveis tornam-se apenas blocos montáveis numéricos abstratos matemáticos lógicas construções lógicas algoritmos mentais e rotinas blocos construtivos modulares algoritmos e matrizes e modelos replicáveis.
-
-**Seu código falhou ou entrou em Loop? Pergunte-se:**
-
-1.  **Minha Base Case (Condição de Parada) está correta?** O esquecimento dela trava e estoura limite maximo Stack Overflow Erro Memória limite processual esgotamento estouro Pilha sistema RAM limite de processamento.
-    
-2.  **Estou desmarcando (Backtracking) minha variável global de estado corretamente?** Array listas temporárias precisam invariavelmente ser limpas e esvaziadas (dar pop ou remover no final).
-    
-3.  **Passei valor ou passei referência?** Adicionar 
-    `minha_lista_temporaria`
-     a lista de resultados no Python ou Java não serve se for o ponteiro e referência de memória. Ela será sobreescrita na volta apagada esvaziada perdida e corrompida. Adicione 
-    `minha_lista.copy()`
-     duplicada clone e isolada protegida matriz limpas matriz isolada listadas independentes clone listado protegido isolado independente base matriz clone.
-    
-4.  **Minha Árvore poda galhos?** A Árvore é densa pesada exponencial gorda massiva massiva grossa. Sem cortes IF bloqueios antecipados limítrofes antecipados prévios e checks de segurança preventivos profiláticos preventivos de base limítrofes restrições e IFs e checadores restritivos e testagens e paralisadores inibidores de descidas processuais, a função travará lentidão extrema timeout tempo limite excedido e morte travamento lento processo lentidão base Time limite Excedido morte limitador TLE Time Limite Erro.
-
-Treine com dedicação, esboce a árvore de estados no papel antes de codar, identifique as ramificações de testes desenhando e rabiscando e tracejando e mapeando o papel rascunhando traçando a modelagem esqueleto lógica antes de bater de codar bater teclado códigos programação de linha bater teclas escrever de código. Raciocínio vem primeiro. Bom código e boa sorte estudantil e aprendizados na vida código acadêmicos profissionais e bases e carreiras aprendizados!
-
-</p>
 
 </p>
 
