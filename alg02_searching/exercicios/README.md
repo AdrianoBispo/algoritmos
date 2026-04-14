@@ -797,7 +797,7 @@ arr = [1, 3, 50, 10, 9, 7, 6]
 </details>
 
 <details>
-  <summary>🟡 Nível 2 - Médio</summary>
+  <summary>🟠 Nível 2 - Médio</summary>
 
 <p>
 

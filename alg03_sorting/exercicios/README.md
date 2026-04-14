@@ -430,7 +430,7 @@ N
 </details>
 
 <details>
-  <summary>🟡 Nível 2 - Médio</summary>
+  <summary>🟠 Nível 2 - Médio</summary>
 
 <p>
 

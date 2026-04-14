@@ -1,14 +1,11 @@
-# Lista de Exercícios
+# Lista de Exercícios - Técnica dos Dois Ponteiros
 
-Este documento contém uma lista progressiva e detalhada de problemas focada na técnica de **Dois Ponteiros (Two Pointers)**.
-
-O objetivo deste material é desenvolver a sua lógica de programação. Compreenda o passo a passo algorítmico e as implicações de cada decisão antes de ir para o código. Você pode resolver esses problemas utilizando a linguagem de sua preferência (C, C++, Java, Python, Javascript, Go, etc.).
+Este documento contém uma lista progressiva e detalhada de problemas focada na técnica de **Dois Ponteiros (Two Pointers)**. O objetivo deste material é desenvolver a sua lógica de programação. Você pode resolver esses problemas utilizando a linguagem de sua preferência (C, C++, Java, Python, Javascript, Go, etc.).
 
 <details>
-  <summary>Nível: Fácil (Easy Problems)</summary>
+  <summary>🟢 Nível 1 - Fácil</summary>
 
 <p>
-
 
 ### 1\. [Remover Ocorrências](https://www.geeksforgeeks.org/dsa/remove-element/ "null")
 
@@ -1101,10 +1098,9 @@ array[i] >= 5 * array[j]
 </details>
 
 <details>
-  <summary>Nível: Médio (Medium Problems)</summary>
+  <summary>🟠 Nível 2 - Médio</summary>
 
 <p>
-
 
 ### 14\. [Contar Pares com Diferença Absoluta Igual a k](https://www.geeksforgeeks.org/dsa/count-pairs-difference-equal-k/ "null")
 
@@ -2020,10 +2016,9 @@ conhece(A, B)
 </details>
 
 <details>
-  <summary>Nível: Difícil (Hard Problems)</summary>
+  <summary>🔴 Nível 3 - Difícil</summary>
 
 <p>
-
 
 ### 23\. [Problema de Retenção de Água da Chuva](https://www.geeksforgeeks.org/dsa/trapping-rain-water/ "null")
 
