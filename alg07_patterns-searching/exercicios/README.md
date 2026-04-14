@@ -3,9 +3,8 @@
 Esta lista foi elaborada para fortalecer a lógica de programação e o entendimento de manipulação de strings, matrizes e estruturas de dados avançadas. Os exercícios estão ordenados do nível básico ao avançado, cobrindo desde contagens simples até o uso de estruturas complexas como Árvores de Sufixos.
 
 <details>
-  <summary>Problemas Fáceis</summary>
+  <summary>🟢 Nível 1 - Fácil</summary>
 <p>
-
 
 ### 1\. Substrings com apenas um Caractere Específico (Substrings with only Given Character)
 
@@ -136,7 +135,7 @@ Esta lista foi elaborada para fortalecer a lógica de programação e o entendim
 </details>
 
 <details>
-  <summary>Problemas Médios</summary>
+  <summary>🟠 Nível 2 - Médio</summary>
 <p>
 
 
@@ -293,9 +292,8 @@ Esta lista foi elaborada para fortalecer a lógica de programação e o entendim
 </details>
 
 <details>
-  <summary>Problemas Difíceis</summary>
+  <summary>🔴 Nível 3 - Difícil</summary>
 <p>
-
 
 ### 12\. Busca de Palavras em Ziguezague (Word Search with Zig-Zag)
 
