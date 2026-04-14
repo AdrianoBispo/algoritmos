@@ -1,13 +1,43 @@
-# Lista de Exercícios
+# Lista de Exercícios - Janela Flutuante (Sliding Window)
 
 Esta lista de exercícios e guia de estudos foi criada para fortalecer a lógica de programação utilizando a técnica de **Janela Flutuante (Sliding Window)**. O foco aqui não é a sintaxe específica de uma linguagem, mas sim o raciocínio algorítmico estruturado. Você pode resolver esses problemas utilizando qualquer linguagem de programação moderna (C, C++, Java, Python, JavaScript/TypeScript, Go, Rust, etc.).
 
+### Dicas Finais para Implementação e Estudos
+
+Para transcrever a lógica do padrão **Janela Flutuante (Sliding Window)** para código de forma eficaz, observe o esqueleto abaixo que responde a mais de 80% dos problemas dinâmicos:
+
+```
+// Esqueleto Lógico Pseudo-Código
+
+inicializar_esquerda = 0
+inicializar_direita = 0
+estrutura_de_controle = Novo Mapa() / Variáveis
+melhor_resultado = infinito (ou 0)
+
+enquanto direita < tamanho_do_array:
+    // 1. Inserir o elemento da "direita" na estrutura da janela
+    adicionar_elemento(estrutura_de_controle, array[direita])
+    
+    // 2. Verificar se a janela violou as regras
+    enquanto a janela é INVÁLIDA (ex: soma estourou limite):
+        // a. Remover o elemento da "esquerda" da estrutura
+        remover_elemento(estrutura_de_controle, array[esquerda])
+        // b. Encolher a janela
+        esquerda++
+    
+    // 3. Atualizar a resposta, porque a janela agora está limpa e válida
+    melhor_resultado = calcular_melhor(melhor_resultado, tamanho/valor da janela)
+    
+    // 4. Expandir para o próximo ciclo
+    direita++
+
+retornar melhor_resultado
+```
+
 <details>
-  <summary>🟢 Nível: Fácil</summary>
+  <summary>🟢 Nível 1 - Fácil</summary>
 
 <p>
-
-
 Neste nível, os problemas focam na mecânica básica de criar uma janela, expandi-la e deslizá-la sem lógicas de condição muito complexas.
 
 ### 1\. Soma máxima de uma subarray de tamanho k
@@ -434,11 +464,9 @@ x
 </details>
 
 <details>
-  <summary>🟡 Nível: Médio</summary>
+  <summary>🟠 Nível 2 - Médio</summary>
 
 <p>
-
-
 Problemas de nível médio frequentemente requerem o uso de estruturas de dados auxiliares (como Mapas de Hash ou Sets) para gerenciar o estado dos elementos que estão _dentro_ da janela dinâmica.
 
 ### 7\. Maior substring com caracteres distintos
@@ -1783,11 +1811,9 @@ P
 </details>
 
 <details>
-  <summary>🔴 Nível: Difícil</summary>
+  <summary>🔴 Nível 3 - Difícil</summary>
 
 <p>
-
-
 Os problemas difíceis de Janela Flutuante frequentemente exigem a mistura de múltiplas técnicas (como pilhas monotônicas, mapas sofisticados, ou janelas duplas atípicas). A compreensão cristalina dos níveis anteriores é imperativa aqui.
 
 ### 24\. Máximo dos mínimos para cada tamanho de janela
@@ -2120,39 +2146,3 @@ K
 </p>
 
 </details>
-
-## Dicas Finais para Implementação e Estudos
-
-Para transcrever a lógica do padrão **Janela Flutuante (Sliding Window)** para código de forma eficaz, observe o esqueleto abaixo que responde a mais de 80% dos problemas dinâmicos:
-
-```
-// Esqueleto Lógico Pseudo-Código
-
-inicializar_esquerda = 0
-inicializar_direita = 0
-estrutura_de_controle = Novo Mapa() / Variáveis
-melhor_resultado = infinito (ou 0)
-
-enquanto direita < tamanho_do_array:
-    // 1. Inserir o elemento da "direita" na estrutura da janela
-    adicionar_elemento(estrutura_de_controle, array[direita])
-    
-    // 2. Verificar se a janela violou as regras
-    enquanto a janela é INVÁLIDA (ex: soma estourou limite):
-        // a. Remover o elemento da "esquerda" da estrutura
-        remover_elemento(estrutura_de_controle, array[esquerda])
-        // b. Encolher a janela
-        esquerda++
-    
-    // 3. Atualizar a resposta, porque a janela agora está limpa e válida
-    melhor_resultado = calcular_melhor(melhor_resultado, tamanho/valor da janela)
-    
-    // 4. Expandir para o próximo ciclo
-    direita++
-
-retornar melhor_resultado
-  
-
-```
-
-Siga praticando primeiramente entendendo a parte matemática de como a janela desliza, evitando pular diretamente para a escrita do código. Bons estudos e excelente evolução algorítmica!
