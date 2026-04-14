@@ -8,5 +8,5 @@ Algoritmos randomizados usam aleatoriedade em seus cálculos para atingir um res
 
 ## Noções Básicas
 
--   [Introdução e análise](https://www.geeksforgeeks.org/dsa/randomized-algorithms-set-1-introduction-and-analysis/)
--   [Classificação e aplicações](https://www.geeksforgeeks.org/dsa/randomized-algorithms-set-2-classification-and-applications/)
+- [Introdução e análise](https://www.geeksforgeeks.org/dsa/randomized-algorithms-set-1-introduction-and-analysis/)
+- [Classificação e aplicações](https://www.geeksforgeeks.org/dsa/randomized-algorithms-set-2-classification-and-applications/)
