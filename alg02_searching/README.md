@@ -2,6 +2,14 @@
 
 Algoritmos de busca são ferramentas essenciais na ciência da computação usadas para localizar itens específicos dentro de uma coleção de dados. Esses algoritmos são projetados para navegar eficientemente por estruturas de dados para encontrar as informações desejadas, tornando-os fundamentais em várias aplicações, como bancos de dados, mecanismos de busca na web e muito mais.
 
+- **Busca Binária Clássica:** Reduzir o espaço de busca pela metade a cada iteração, transformando problemas de tempo O(N) para tempo logarítmico O(logN).
+    
+- **Busca Binária no Espaço de Resposta:** Uma técnica avançada onde você não busca um índice em um array, mas sim o _valor ótimo_ dentro de um intervalo de respostas possíveis (muito comum em problemas de alocação e otimização, nível _Hard_).
+    
+- **Técnica de Dois Ponteiros (Two Pointers):** Uma forma eficiente de buscar pares ou trincas em coleções ordenadas, minimizando laços aninhados.
+    
+- **Ordenação Cíclica (Cyclic Sort):** Padrão vital para encontrar números ausentes ou duplicados em arrays que contêm números em um intervalo específico de 1 a N.
+
 ## Links de Referências
 
 ### Dados Lineares

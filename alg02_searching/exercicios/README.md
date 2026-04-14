@@ -2,29 +2,13 @@
 
 Este documento é focado no fortalecimento da lógica de programação através da resolução de problemas clássicos e avançados de algoritmos de busca. Os exercícios estão divididos por nível de dificuldade e foram cuidadosamente selecionados para cobrir os principais padrões algorítmicos cobrados em entrevistas técnicas e competições de programação.
 
-## 🧠 Por que focar em Algoritmos de Busca?
-
-A busca é uma das operações mais fundamentais na ciência da computação. Dominar algoritmos de busca não se resume apenas a encontrar um número em uma lista; trata-se de **otimização e tomada de decisão**. Ao longo desta lista, você transitará de abordagens simples (como a Busca Linear, que verifica elemento por elemento) para paradigmas avançados, como:
-
--   **Busca Binária Clássica:** Reduzir o espaço de busca pela metade a cada iteração, transformando problemas de tempo O(N) para tempo logarítmico O(logN).
-    
--   **Busca Binária no Espaço de Resposta:** Uma técnica avançada onde você não busca um índice em um array, mas sim o _valor ótimo_ dentro de um intervalo de respostas possíveis (muito comum em problemas de alocação e otimização, nível _Hard_).
-    
--   **Técnica de Dois Ponteiros (Two Pointers):** Uma forma eficiente de buscar pares ou trincas em coleções ordenadas, minimizando laços aninhados.
-    
--   **Ordenação Cíclica (Cyclic Sort):** Padrão vital para encontrar números ausentes ou duplicados em arrays que contêm números em um intervalo específico de 1 a N.
-
-## 🎯 Como utilizar este guia
-
 Para cada problema, você encontrará a descrição geométrica, a Entrada (Input) e Saída (Output) esperadas, e um roteiro lógico (Passo a Passo) agnóstico a linguagens (C, C++, Java, Python, TypeScript, Go, etc.).
 
 Além disso, adicionamos as **Complexidades de Tempo e Espaço (Big-O)**, **Casos Extremos (Edge Cases)** que costumam quebrar códigos mal testados, e uma **Dica de Ouro** para identificar o padrão por trás do problema.
 
 <details>
-  <summary>🟢 Easy Problems (Problemas Fáceis)</summary>
-
+  <summary>🟢 Problemas Fáceis</summary>
 <p>
-
 
 Problemas de nível fácil geralmente exigem o domínio de estruturas de repetição, lógica condicional básica e uma introdução a ponteiros e matemática simples aplicada a arrays. O objetivo aqui é aprender a otimizar soluções de Força Bruta O(N2) para O(N) ou O(logN).
 
@@ -813,10 +797,9 @@ arr = [1, 3, 50, 10, 9, 7, 6]
 </details>
 
 <details>
-  <summary>🟡 Medium Problems (Problemas Médios)</summary>
+  <summary>🟡 Problemas Médios</summary>
 
 <p>
-
 
 Os problemas médios trazem combinações de técnicas. A complexidade teórica dos enunciados sobe, e abordagens ingênuas O(N2) resultarão em erros do tipo "Time Limit Exceeded" (TLE). Você será testado em fusões de ordenações cíclicas, algoritmos matemáticos como o de Moore, e buscas aplicadas de maneiras criativas.
 
@@ -1859,10 +1842,9 @@ K=3
 </details>
 
 <details>
-  <summary>🔴 Hard Problems (Problemas Difíceis)</summary>
+  <summary>🔴 Problemas Difíceis</summary>
 
 <p>
-
 
 O reino dos Hard Problems é marcado pelo "Binary Search on Answer" (Busca Binária no Espaço de Resposta), Otimizações em Grids Múltiplos com Mediana Geométrica e Partições Críticas de Alta Frequência nas Meta/Google Interviews.
 
@@ -2043,9 +2025,6 @@ ações
     inicio = meio + 1
     ```
     .
-
-**🏆 Parabéns por chegar até o fim! Bons estudos e lembre-se: a prática em LeetCode e HackerRank cimentará estes padrões neurais logarítmicos avaliativos em reflexos incondicionados naturais nativos base perfeitos formadores implacáveis inquestionáveis definitivos vitais definitivos base incontestáveis exatos e brilhantes. Avante rumo à Engenharia e Arquitetura de Software de Elite!**
-
 </p>
 
 </details>
