@@ -1,16 +1,15 @@
-# Lista de Exercícios - Algoritmos de Ordenação: O Guia Definitivo
+# Lista de Exercícios - Algoritmos de Ordenação
 
 Bem-vindo à lista de exercícios práticos de Algoritmos de Ordenação! Este documento foi criado e cuidadosamente estruturado para ajudar você a fortalecer sua lógica de programação e sua capacidade de resolução de problemas algorítmicos.
 
-A ordenação (Sorting) é um dos tópicos mais fundamentais da Ciência da Computação. Muitas vezes, um problema que parece impossível ou que exige uma complexidade de tempo ineficiente (como O(N2) ou O(N3)) pode ser drasticamente otimizado para O(NlogN) ou até O(N) simplesmente ordenando os dados primeiro. A ordenação é a porta de entrada para técnicas mais avançadas, como _Busca Binária (Binary Search)_, _Algoritmos Gulosos (Greedy Algorithms)_, _Dois Ponteiros (Two Pointers)_ e _Janela Deslizante (Sliding Window)_.
+A ordenação (Sorting) é um dos tópicos mais fundamentais da Ciência da Computação. Muitas vezes, um problema que parece impossível ou que exige uma complexidade de tempo ineficiente (como $O(n^2)$ ou $O(n^3)$) pode ser drasticamente otimizado para $O(n log n)$ ou até $O(n)$ simplesmente ordenando os dados primeiro. A ordenação é a porta de entrada para técnicas mais avançadas, como _Busca Binária (Binary Search)_, _Algoritmos Gulosos (Greedy Algorithms)_, _Dois Ponteiros (Two Pointers)_ e _Janela Deslizante (Sliding Window)_.
 
 **Como usar esta lista:** Você pode implementar essas soluções na linguagem de programação de sua preferência (C, C++, Java, Python, JavaScript, C#, Ruby, Go, etc.). Não se apresse em olhar o código pronto na internet. Leia a descrição, entenda a regra de negócio e siga o **"Passo a Passo Sugerido"** para desenhar a estrutura do seu algoritmo mentalmente ou no papel. Preste muita atenção na seção de **"Dicas e Casos Extremos"** e tente atingir a **"Complexidade Esperada"** em suas submissões.
 
 <details>
-  <summary>🟢 Easy Problems (Nível Fácil)</summary>
+  <summary>🟢 Nível 1 - Fácil</summary>
 
 <p>
-
 
 Esses problemas focam em aplicar a ordenação direta para revelar padrões nos dados e introduzem o pensamento guloso (Greedy) básico.
 
@@ -431,10 +430,9 @@ N
 </details>
 
 <details>
-  <summary>🟡 Medium Problems (Nível Médio)</summary>
+  <summary>🟡 Nível 2 - Médio</summary>
 
 <p>
-
 
 A partir daqui, os problemas exigem combinações de técnicas. A ordenação será apenas o primeiro passo para preparar o terreno para algoritmos mais complexos.
 
@@ -1640,12 +1638,11 @@ A[i] + B[i] >= K
 </details>
 
 <details>
-  <summary>🔴 Hard Problems (Nível Difícil)</summary>
+  <summary>🔴 Nível 3 - Difícil</summary>
 
 <p>
 
-
-A fronteira final. Estes problemas exigem extrema clareza e uso profundo de Estruturas de Dados ou algoritmos não triviais, frequentemente com restrições rígidas de Espaço em RAM (O(1)).
+A fronteira final. Estes problemas exigem extrema clareza e uso profundo de Estruturas de Dados ou algoritmos não triviais, frequentemente com restrições rígidas de Espaço em RAM ($O(1)$).
 
 ### 31\. Mesclar Arrays Ordenados com Espaço Extra O(1) (Merge sorted arrays with O(1) extra space)
 
