@@ -1,4 +1,4 @@
-# Lista de Exercícios
+# Lista de Exercícios - Algoritmos de Busca por Padrões (Patterns Searching)
 
 Esta lista foi elaborada para fortalecer a lógica de programação e o entendimento de manipulação de strings, matrizes e estruturas de dados avançadas. Os exercícios estão ordenados do nível básico ao avançado, cobrindo desde contagens simples até o uso de estruturas complexas como Árvores de Sufixos.
 
