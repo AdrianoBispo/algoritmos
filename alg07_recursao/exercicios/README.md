@@ -1,14 +1,13 @@
-# Lista de Exercícios
+# Lista de Exercícios - Recursão
 
 Este documento contém uma lista de desafios de programação focados no paradigma de **Recursão**. O objetivo é fortalecer a lógica de programação. Os exercícios são agnósticos de linguagem, ou seja, podem ser implementados na linguagem de sua preferência (C, C++, Java, Python, Javascript, etc.).
 
 Siga o passo a passo lógico descrito em cada problema, prestando muita atenção na identificação do **caso base** (quando a recursão para) e no **passo recursivo** (como o problema é quebrado em partes menores).
 
 <details>
-  <summary>🟢 Fáceis</summary>
+  <summary>🟢 Nível 1 - Fácil</summary>
 
 <p>
-
 
 ### 1\. [Fatorial](https://www.geeksforgeeks.org/dsa/program-for-factorial-of-a-number/ "null")
 
@@ -279,10 +278,9 @@ n
 </details>
 
 <details>
-  <summary>🟡 Médios</summary>
+  <summary>🟠 Nível 2 - Médio</summary>
 
 <p>
-
 
 ### 10\. [Média do array](https://www.geeksforgeeks.org/dsa/mean-of-array-using-recursion/ "null")
 
@@ -616,10 +614,9 @@ n
 </details>
 
 <details>
-  <summary>🔴 Difíceis</summary>
+  <summary>🔴 Nível 3 - Difícil</summary>
 
 <p>
-
 
 ### 21\. [Ordenar uma fila](https://www.geeksforgeeks.org/dsa/sort-the-queue-using-recursion/ "null")
 
