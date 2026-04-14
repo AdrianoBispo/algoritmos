@@ -1,11 +1,11 @@
-# Lista de Exercícios
+# Lista de Exercícios - Algoritmos Matemáticos
 
 Esta lista foi elaborada para fortalecer a lógica de programação através de desafios matemáticos clássicos que fundamentam a computação moderna. O objetivo é que você implemente as soluções em qualquer linguagem de programação (C, C++, Java, Python, JavaScript, etc.), focando no fluxo de dados, na manipulação de variáveis e na eficiência algorítmica.
 
 Dominar esses problemas ajuda a desenvolver o "pensamento computacional", essencial para resolver problemas complexos de engenharia de software e ciência de dados.
 
 <details>
-  <summary>🟢 Problemas Fáceis</summary>
+  <summary>🟢 Nível 1 - Fácil</summary>
 
 <p>
 
@@ -881,7 +881,7 @@ _Foco: Sintaxe básica, laços simples, fórmulas diretas, lógica condicional, 
 </details>
 
 <details>
-  <summary>🟠 Problemas Médios</summary>
+  <summary>🟠 Nível 2 - Médio</summary>
 
 <p>
 
@@ -1261,7 +1261,7 @@ _Foco: Primalidade, fatoração e algoritmos de busca espacial._
 </details>
 
 <details>
-  <summary>🔴 Problemas Difíceis</summary>
+  <summary>🔴 Nível 3 - Difícil</summary>
 
 <p>
 
