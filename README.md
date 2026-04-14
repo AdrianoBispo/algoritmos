@@ -44,13 +44,13 @@ Abaixo, encontram-se os roteiros categorizados que compõem este repositório:
 | **Janela Deslizante (Sliding Window)**| [`alg05_sliding-window`](alg05_sliding-window/README.md) | Como lidar com intervalos que se processam contínua e deslizantemente em arrays e strings. |
 | **Soma de Prefixo (Prefix Sum)** | [`alg06_prefix-sum`](alg06_prefix-sum/README.md) | Estratégias de pré-processamento para consultas instantâneas (O(1)) a soma em intervalos. |
 | **Busca de Padrões** | [`alg07_patterns-searching`](alg07_patterns-searching/README.md) | Busca inteligente que avança em pedaços (como KMP, Rabin-Karp) para achar padrões em textos completos. |
-| **Recursão** | [`alg07_recursao`](alg07_recursao/README.md) | Problemas sofisticados cuja solução passa pela evocação sequencial de subprocessos análogos. |
-| **Backtracking** | [`alg08_backtracking`](alg08_backtracking/README.md) | Busca minuciosa por exaustão que utiliza o fluxo de "tentativa e erro" controlados para chegar a resultados válidos. |
-| **Algoritmos Gananciosos** | [`alg09_greedy-algorithms`](alg09_greedy-algorithms/README.md) | Escolhas locais instantaneamente promissoras que em teoria buscam ótimo global (como Fractional Knapsack). |
-| **Programação Dinâmica (DP)** | [`alg10_dynamic-programming`](alg10_dynamic-programming/README.md) | Superando recursões ineficientes via técnica de guardar resultados (memoização/tabulação) de subproblemas repetidos. |
-| **Algoritmos Geométricos** | [`alg11_geometric-algorithms`](alg11_geometric-algorithms/README.md) | Interseções cruciais e problemas espaciais de pontos, polígonos, raios e linhas. |
-| **Algoritmos Randomizados**| [`alg12_randomized-algorithms`](alg12_randomized-algorithms/README.md) | Utilização controlada de casualidade como geradores randômicos para contornar gargalos ou simplificar o pior-caso. |
-| **Manipulação de Bits** | [`alg13_bitwise-algorithms`](alg13_bitwise-algorithms/README.md) | Matemática binária: máscaras, flags, shifts aplicados para resolver quebra-cabeças com extrema velocidade e baixo uso real de memória. |
+| **Recursão** | [`alg08_recursao`](alg08_recursao/README.md) | Problemas sofisticados cuja solução passa pela evocação sequencial de subprocessos análogos. |
+| **Backtracking** | [`alg09_backtracking`](alg09_backtracking/README.md) | Busca minuciosa por exaustão que utiliza o fluxo de "tentativa e erro" controlados para chegar a resultados válidos. |
+| **Algoritmos Gananciosos** | [`alg10_greedy-algorithms`](alg10_greedy-algorithms/README.md) | Escolhas locais instantaneamente promissoras que em teoria buscam ótimo global (como Fractional Knapsack). |
+| **Programação Dinâmica (DP)** | [`alg11_dynamic-programming`](alg11_dynamic-programming/README.md) | Superando recursões ineficientes via técnica de guardar resultados (memoização/tabulação) de subproblemas repetidos. |
+| **Algoritmos Geométricos** | [`alg12_geometric-algorithms`](alg12_geometric-algorithms/README.md) | Interseções cruciais e problemas espaciais de pontos, polígonos, raios e linhas. |
+| **Algoritmos Randomizados**| [`alg13_randomized-algorithms`](alg13_randomized-algorithms/README.md) | Utilização controlada de casualidade como geradores randômicos para contornar gargalos ou simplificar o pior-caso. |
+| **Manipulação de Bits** | [`alg14_bitwise-algorithms`](alg14_bitwise-algorithms/README.md) | Matemática binária: máscaras, flags, shifts aplicados para resolver quebra-cabeças com extrema velocidade e baixo uso real de memória. |
 
 ---
 
