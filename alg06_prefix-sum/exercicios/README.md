@@ -1,13 +1,11 @@
-# Lista de Exercícios Completa - Algoritmos de Soma de Prefixo (Prefix Sum)
+# Lista de Exercícios - Algoritmos de Soma de Prefixo (Prefix Sum)
 
 Esta lista de exercícios tem como objetivo fortalecer e expandir sua lógica de programação em torno de uma das técnicas mais elegantes e fundamentais da ciência da computação: a **Soma de Prefixo** (Prefix Sum). Os problemas abaixo estão organizados por ordem crescente de dificuldade e foram elaborados de forma agnóstica de linguagem. Sinta-se livre para resolvê-los em C, C++, C#, Java, Kotlin, Javascript/Typescript, Python, PHP, Go, Ruby ou qualquer outra linguagem de sua preferência.
 
 <details>
-  <summary>NÍVEL INICIANTE: Fundamentos da Soma de Prefixo</summary>
+  <summary>🟢 Nível 1 - Fácil</summary>
 
 <p>
-
-
 Nesta seção, o foco é entender a mecânica básica de acumulação de valores e como reverter esse processo ou utilizá-lo para consultas rápidas.
 
 ### 1\. Array original a partir de prefix sums
@@ -307,11 +305,9 @@ i
 </details>
 
 <details>
-  <summary>NÍVEL INTERMEDIÁRIO: Explorando Hashes e Janelas</summary>
+  <summary>🟠 Nível 2 - Médio</summary>
 
 <p>
-
-
 Neste nível, a técnica de Prefix Sum é combinada com Dicionários/Hash Maps e algoritmos de Janela Deslizante (Sliding Window) para alcançar complexidades O(N) em problemas complexos.
 
 ### 6\. Menor subarray contíguo com soma mínima
@@ -897,11 +893,9 @@ aux
 </details>
 
 <details>
-  <summary>NÍVEL AVANÇADO: Prefix Sum 2D e Submatrizes</summary>
+  <summary>🔴 Nível 3 - Difícil</summary>
 
 <p>
-
-
 Onde a matemática plana entra em cena. Lidar com grades bidimensionais exige cuidado absoluto com os índices, normalmente aplicando o **Princípio da Inclusão-Exclusão** da teoria dos conjuntos, mapeado para programação geométrica.
 
 ### 16\. Computar matriz anterior
