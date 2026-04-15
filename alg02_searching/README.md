@@ -12,13 +12,13 @@ Algoritmos de busca são ferramentas essenciais na ciência da computação usad
 
 ## Links de Referências
 
-### Dados Lineares
+### Algoritmos de Busca para Dados Lineares
 
 - **Algoritmos para Dados Desordenados:** [Geeks for Geeks - Algoritmo de Busca Sequencial (ou Linear)](https://www.geeksforgeeks.org/dsa/linear-search/), [Geeks for Geeks - Algoritmo de Busca Linear com Sentinela](https://www.geeksforgeeks.org/dsa/sentinel-linear-search/).
 
 - **Algoritmos para Dados Ordenados:** [Geeks for Geeks - Técnica de Dois Ponteiros](https://www.geeksforgeeks.org/dsa/two-pointers-technique/), [Geeks for Geeks - Algoritmo de Busca Binária](https://www.geeksforgeeks.org/dsa/binary-search/), [Geeks for Geeks - Algoritmo de Busca Ternária](https://www.geeksforgeeks.org/dsa/ternary-search/), [Geeks for Geeks - Algoritmo de Busca por Interpolação](https://www.geeksforgeeks.org/dsa/interpolation-search/), [Geeks for Geeks - Algoritmo de Busca por Salto (Jump Search)](https://www.geeksforgeeks.org/dsa/jump-search/), [Geeks for Geeks - Algoritmo de Busca Exponencial](https://www.geeksforgeeks.org/dsa/exponential-search/), [Geeks for Geeks - Algoritmo de Busca de Fibonacci](https://www.geeksforgeeks.org/dsa/fibonacci-search/).
 
-### Dados Não Lineares
+### Algoritmos de Busca para Dados Não Lineares
 
 - **Buscas Não Informadas (Cegas):** [Geeks for Geeks - Algoritmo de Busca em Largura (BFS - Breadth-First Search)](https://www.geeksforgeeks.org/dsa/breadth-first-search-or-bfs-for-a-graph/), [Geeks for Geeks - Algoritmo de Busca em Profundidade (DFS - Depth-First Search)](https://www.geeksforgeeks.org/dsa/depth-first-search-or-dfs-for-a-graph/).
 
